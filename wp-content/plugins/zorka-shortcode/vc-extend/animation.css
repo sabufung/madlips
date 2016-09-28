@@ -1,0 +1,42 @@
+.wpb_start_animation.wpb_fadein {
+    -webkit-animation: fadeIn 0.7s 0s 1 ease-in-out;
+    -moz-animation: fadeIn 0.7s 0s 1 ease-in-out;
+    -ms-animation: fadeIn 0.7s 0s 1 ease-in-out;
+    -o-animation: fadeIn 0.7s 0s 1 ease-in-out;
+    animation: fadeIn 0.7s 0s 1 ease-in-out;
+    opacity: 1;
+}
+@-moz-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.wpb_start_animation.wpb_fadein.g5plus-css-animation,
+.wpb_start_animation.wpb_top-to-bottom.g5plus-css-animation,
+.wpb_start_animation.wpb_bottom-to-top.g5plus-css-animation,
+.wpb_start_animation.wpb_left-to-right.g5plus-css-animation,
+.wpb_start_animation.wpb_right-to-left.g5plus-css-animation,
+.wpb_start_animation.wpb_appear.g5plus-css-animation{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
