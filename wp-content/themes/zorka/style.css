@@ -49,32 +49,32 @@ Domain Path: 		/languages/
  * ----------------------------------------------------------------------------
  */
 .filter-blur {
-  -webkit-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
-  -moz-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
-  -o-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
-  -ms-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
-  filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  -webkit-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  -moz-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  -o-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  -ms-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
 }
 .filter-brightness-dark {
-  -webkit-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
-  -moz-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
-  -o-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
-  -ms-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
-  filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
+  -webkit-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
+  -moz-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
+  -o-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
+  -ms-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
+  filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-dark');
 }
 .filter-brightness-light {
-  -webkit-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
-  -moz-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
-  -o-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
-  -ms-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
-  filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
+  -webkit-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
+  -moz-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
+  -o-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
+  -ms-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
+  filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#brightness-light');
 }
 .filter-blur-overlay {
-  -webkit-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
-  -moz-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
-  -o-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
-  -ms-filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
-  filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
+  -webkit-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
+  -moz-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
+  -o-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
+  -ms-filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
+  filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#blur-overlay');
 }
 .filter-gray-scale {
   -webkit-filter: grayscale(1);
@@ -82,7 +82,7 @@ Domain Path: 		/languages/
   -moz-filter: grayscale(100%);
   filter: gray;
   filter: grayscale(100%);
-  filter: url('http://iwlac.top/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
+  filter: url('http://localhost/madlips/wp-content/themes/zorka/assets/css/filter.svg#gray-scale');
 }
 .filter-gray-scale:hover {
   -webkit-filter: none;
@@ -2920,7 +2920,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url("http://iwlac.top/wp-content/themes/zorka/assets/images/arrow_down.png");
+  background-image: url("http://localhost/madlips/wp-content/themes/zorka/assets/images/arrow_down.png");
   background-repeat: no-repeat;
   background-position: 98%;
   background-position: calc(100% - 10px);
@@ -2996,7 +2996,7 @@ textarea {
   border-radius: 0;
 }
 body.boxed {
-  background-image: url('http://iwlac.top/wp-content/themes/zorka/assets/images/patterns/bg0.png');
+  background-image: url('http://localhost/madlips/wp-content/themes/zorka/assets/images/patterns/bg0.png');
   background-repeat: repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -9488,7 +9488,7 @@ a.shipping-calculator-button:hover {
   margin-top: 15px;
 }
 #panel-style-selector ul.panel-primary-background li {
-  background-image: url('http://iwlac.top/wp-content/themes/zorka/assets/images/style-selector-bg.png');
+  background-image: url('http://localhost/madlips/wp-content/themes/zorka/assets/images/style-selector-bg.png');
   background-repeat: no-repeat;
 }
 /**
@@ -9667,7 +9667,7 @@ a.shipping-calculator-button:hover {
   margin: 0;
 }
 .zorka-testimonial .testimonial-content {
-  background: url("http://iwlac.top/wp-content/themes/zorka//assets/images/quote.png") 0 15px no-repeat;
+  background: url("http://localhost/madlips/wp-content/themes/zorka//assets/images/quote.png") 0 15px no-repeat;
   padding-top: 19px;
   color: #e88e51;
   line-height: 2;
@@ -9734,7 +9734,7 @@ a.shipping-calculator-button:hover {
 }
 .zorka-testimonial.style3 .testimonial-content {
   color: #CCCCCC;
-  background: url('http://iwlac.top/wp-content/themes/zorka/assets/images/quote-dark.png') 0 15px no-repeat;
+  background: url('http://localhost/madlips/wp-content/themes/zorka/assets/images/quote-dark.png') 0 15px no-repeat;
 }
 .zorka-testimonial.style3 .owl-theme .owl-controls .owl-page span {
   background: #000000;

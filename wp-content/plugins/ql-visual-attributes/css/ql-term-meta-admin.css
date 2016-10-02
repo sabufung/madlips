@@ -1,0 +1,65 @@
+/**
+ * QueryLoop Term Meta Admin Styles
+ * Author: @eliorivero
+ * http://queryloop.com
+ */
+
+/* Image Select */
+.image-select-wrap {
+	overflow: hidden;
+}
+.image-preview:empty {
+	height: 0;
+	-webkit-transition: height .2s ease-out;
+	transition: height .2s ease-out;
+}
+.image-preview:not(:empty) {
+	position: relative;
+	margin-bottom: 10px;
+	width: 96px;
+	height: 96px;
+}
+.image-preview img {
+	max-width: 96px;
+	vertical-align: top;
+	border: 1px solid #ddd;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.image-preview .remove-media, .icon-preview .remove-icon {
+	background: #F16666;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	font-size: 16px;
+	padding: 1px;
+	position: absolute;
+	display: inline-block;
+	-webkit-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.image-preview .remove-media:hover {
+	background: red;
+}
+/* Icon Preview */
+.icon-preview {
+	position: relative;
+}
+.icon-preview i {
+	font-size: 96px;
+	width: 96px;
+	height: 96px;
+}
+/* Color Picker */
+.color-select-wrap {
+	position: relative;
+}
+.rtl .minicolors input.minicolors-input[type=text] {
+	text-align: center;
+	padding-left: 0;
+}

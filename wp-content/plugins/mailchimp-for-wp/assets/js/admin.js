@@ -2,7 +2,7 @@
 'use strict';
 
 // dependencies
-var m = require('mithril');
+var m = window.m = require('mithril');
 var EventEmitter = require('wolfy87-eventemitter');
 
 // vars
@@ -12,6 +12,13 @@ var tabs = require ('./admin/tabs.js')(context);
 var helpers = require('./admin/helpers.js');
 var settings = require('./admin/settings.js')(context, helpers, events);
 
+// list fetcher
+var ListFetcher = require('./admin/list-fetcher.js');
+var mount = document.getElementById('mc4wp-list-fetcher');
+if( mount ) {
+    m.mount(mount, new ListFetcher);
+}
+
 // expose some things
 window.mc4wp = window.mc4wp || {};
 window.mc4wp.deps = window.mc4wp.deps || {};
@@ -20,7 +27,7 @@ window.mc4wp.helpers = helpers;
 window.mc4wp.events = events;
 window.mc4wp.settings = settings;
 window.mc4wp.tabs = tabs;
-},{"./admin/helpers.js":2,"./admin/settings.js":3,"./admin/tabs.js":4,"mithril":6,"wolfy87-eventemitter":7}],2:[function(require,module,exports){
+},{"./admin/helpers.js":2,"./admin/list-fetcher.js":3,"./admin/settings.js":4,"./admin/tabs.js":5,"mithril":7,"wolfy87-eventemitter":8}],2:[function(require,module,exports){
 'use strict';
 
 var helpers = {};
@@ -63,6 +70,7 @@ helpers.debounce = function(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
+
 
 /**
  * Showif.js
@@ -112,6 +120,71 @@ helpers.debounce = function(func, wait, immediate) {
 
 module.exports = helpers;
 },{}],3:[function(require,module,exports){
+'use strict';
+
+var $ = window.jQuery;
+var config = mc4wp_vars;
+var i18n = config.i18n;
+
+function ListFetcher() {
+    this.working = false;
+    this.done = false;
+
+    // start fetching right away when no lists but api key given
+    if( config.mailchimp.api_connected && config.mailchimp.lists.length == 0 ) {
+        this.fetch();
+    }
+}
+
+ListFetcher.prototype.fetch = function (e) {
+    e && e.preventDefault();
+
+    this.working = true;
+    this.done = false;
+
+    $.post(ajaxurl, {
+        action: "mc4wp_renew_mailchimp_lists"
+    }).done(function(data) {
+        if(data) {
+            window.setTimeout(function() { window.location.reload(); }, 3000 );
+        }
+    }).always(function (data) {
+        this.working = false;
+        this.done = true;
+
+        m.redraw();
+    }.bind(this));
+};
+
+ListFetcher.prototype.view = function () {
+    return m('form', {
+        method: "POST",
+        onsubmit: this.fetch.bind(this)
+    }, [
+        m('p', [
+            m('input', {
+                type: "submit",
+                value: this.working ? i18n.fetching_mailchimp_lists : i18n.renew_mailchimp_lists,
+                className: "button",
+                disabled: !!this.working
+            }),
+            m.trust(' &nbsp; '),
+
+            this.working ? [
+                m('span.mc4wp-loader', "Loading..."),
+                m.trust(' &nbsp; '),
+                m('em.help', i18n.fetching_mailchimp_lists_can_take_a_while)
+            ]: '',
+
+            this.done ? [
+                m( 'em.help.green', i18n.fetching_mailchimp_lists_done )
+            ] : ''
+        ])
+    ]);
+};
+
+module.exports = ListFetcher;
+},{}],4:[function(require,module,exports){
 var Settings = function(context, helpers, events ) {
 	'use strict';
 
@@ -177,7 +250,7 @@ var Settings = function(context, helpers, events ) {
 };
 
 module.exports = Settings;
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 var URL = require('./url.js');
@@ -352,7 +425,7 @@ var Tabs = function(context) {
 };
 
 module.exports = Tabs;
-},{"./url.js":5}],5:[function(require,module,exports){
+},{"./url.js":6}],6:[function(require,module,exports){
 'use strict';
 
 var URL = {
@@ -383,7 +456,7 @@ var URL = {
 };
 
 module.exports = URL;
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 ;(function (global, factory) { // eslint-disable-line
 	"use strict"
 	/* eslint-disable no-undef */
@@ -2618,7 +2691,7 @@ module.exports = URL;
 	return m
 }); // eslint-disable-line
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 /*!
  * EventEmitter v4.2.11 - git.io/ee
  * Unlicense - http://unlicense.org/

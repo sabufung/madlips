@@ -1,0 +1,320 @@
+# Copyright (C) 2015 QueryLoop Visual Attributes
+# This file is distributed under the same license as the QueryLoop Visual Attributes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: QueryLoop Visual Attributes 1.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ql-visual-attributes\n"
+"POT-Creation-Date: 2015-02-20 01:18:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ql-admin.php:63
+msgid "Visual Attributes?"
+msgstr ""
+
+#: ql-admin.php:68
+msgid "&mdash; No Change &mdash;"
+msgstr ""
+
+#: ql-admin.php:69 ql-main.php:127
+msgid "Use General State Option"
+msgstr ""
+
+#: ql-admin.php:70 ql-admin.php:752 ql-main.php:128 ql-main.php:319
+msgid "Yes"
+msgstr ""
+
+#: ql-admin.php:71 ql-admin.php:753 ql-main.php:129 ql-main.php:318
+msgid "No"
+msgstr ""
+
+#: ql-admin.php:93
+msgid "Welcome!"
+msgstr ""
+
+#: ql-admin.php:94
+msgid "Thanks for purchasing %s. This plugin displays attributes as images, icons or colors."
+msgstr ""
+
+#: ql-admin.php:95
+msgid "About the settings"
+msgstr ""
+
+#: ql-admin.php:96
+msgid "The settings in this page set default values to be used throughout the site."
+msgstr ""
+
+#: ql-admin.php:98
+msgid "%s created by Elio Rivero. Follow %s on Twitter for the latest updates."
+msgstr ""
+
+#: ql-admin.php:105
+msgid "Introduction"
+msgstr ""
+
+#: ql-admin.php:117
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ql-admin.php:126
+msgid "Submit"
+msgstr ""
+
+#: ql-admin.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: ql-admin.php:140 ql-main.php:120
+msgid "General Settings"
+msgstr ""
+
+#: ql-admin.php:142
+msgid "Global Styling"
+msgstr ""
+
+#: ql-admin.php:147
+msgid "General State"
+msgstr ""
+
+#: ql-admin.php:151
+msgid "Enabled"
+msgstr ""
+
+#: ql-admin.php:152
+msgid "Disabled"
+msgstr ""
+
+#: ql-admin.php:154
+msgid "You can enable or disable Visual Attributes on each product."
+msgstr ""
+
+#: ql-admin.php:158
+msgid "Context of Use"
+msgstr ""
+
+#: ql-admin.php:162
+msgid "Mobile &amp; Desktop"
+msgstr ""
+
+#: ql-admin.php:163
+msgid "Mobile Only"
+msgstr ""
+
+#: ql-admin.php:164
+msgid "Desktop Only"
+msgstr ""
+
+#: ql-admin.php:166
+msgid "When to display Visual Attributes."
+msgstr ""
+
+#: ql-admin.php:173
+msgid "Option Border Size"
+msgstr ""
+
+#: ql-admin.php:177
+msgid "Border width of option in pixels. Enter 0 to remove."
+msgstr ""
+
+#: ql-admin.php:181
+msgid "Border Color"
+msgstr ""
+
+#: ql-admin.php:187
+msgid "Selected Border"
+msgstr ""
+
+#: ql-admin.php:193
+msgid "Image Width"
+msgstr ""
+
+#: ql-admin.php:197
+msgid "Maximum width of image option in pixels."
+msgstr ""
+
+#: ql-admin.php:201
+msgid "Icon Size"
+msgstr ""
+
+#: ql-admin.php:205
+msgid "Size of icon option in pixels."
+msgstr ""
+
+#: ql-admin.php:209
+msgid "Icon Color"
+msgstr ""
+
+#: ql-admin.php:215
+msgid "Icon Background"
+msgstr ""
+
+#: ql-admin.php:221
+msgid "Color Swatch Size"
+msgstr ""
+
+#: ql-admin.php:225
+msgid "Size of color swatch option in pixels."
+msgstr ""
+
+#: ql-admin.php:229
+msgid "Custom CSS"
+msgstr ""
+
+#: ql-admin.php:233
+msgid "Enter custom CSS to adjust styling details."
+msgstr ""
+
+#: ql-admin.php:238
+msgid "Custom JavaScript"
+msgstr ""
+
+#: ql-admin.php:243
+msgid "Enter custom JavaScript to be run on footer."
+msgstr ""
+
+#: ql-admin.php:345
+msgid "Set default settings for the plugin."
+msgstr ""
+
+#: ql-admin.php:353
+msgid "Use this section to tweak the style."
+msgstr ""
+
+#: ql-admin.php:480 ql-main.php:412 ql-main.php:431 ql-main.php:451
+msgid "Pick Color"
+msgstr ""
+
+#: ql-admin.php:571
+msgid "Settings"
+msgstr ""
+
+#: ql-admin.php:572
+msgid "Access the support forums"
+msgstr ""
+
+#: ql-admin.php:572
+msgid "Support"
+msgstr ""
+
+#: ql-admin.php:737
+msgid "Posts"
+msgstr ""
+
+#: ql-admin.php:738
+msgid "Pages"
+msgstr ""
+
+#: ql-main.php:98
+msgid "Visual Attributes"
+msgstr ""
+
+#: ql-main.php:125
+msgid "Disable Visual Attributes"
+msgstr ""
+
+#: ql-main.php:137
+msgid "Hide Additional Information Tab"
+msgstr ""
+
+#: ql-main.php:142
+msgid "Attribute Settings"
+msgstr ""
+
+#: ql-main.php:144
+msgid "Update Attributes List"
+msgstr ""
+
+#: ql-main.php:307
+msgid "Use Standard Dropdown"
+msgstr ""
+
+#: ql-main.php:320
+msgid "Tooltip"
+msgstr ""
+
+#: ql-main.php:323
+msgid "Show Attribute Name"
+msgstr ""
+
+#: ql-main.php:366
+msgid "Image"
+msgstr ""
+
+#: ql-main.php:367
+msgid "Icon"
+msgstr ""
+
+#: ql-main.php:368
+msgid "Color"
+msgstr ""
+
+#: ql-main.php:385
+msgid "Select Image"
+msgstr ""
+
+#: ql-main.php:410
+msgid "Front Color"
+msgstr ""
+
+#: ql-main.php:429
+msgid "Background Color"
+msgstr ""
+
+#: ql-main.php:475
+msgid "Looks like you haven't added attributes yet."
+msgstr ""
+
+#: ql-main.php:477
+msgid "Start by adding attributes in the Attributes tab."
+msgstr ""
+
+#: ql-main.php:478
+msgid "If it's a variable product, define the variations in the Variations tab."
+msgstr ""
+
+#: ql-main.php:479
+msgid "Once you're done, come back here and add visual elements."
+msgstr ""
+
+#: ql-main.php:604
+msgid "Pick Genericon"
+msgstr ""
+
+#: ql-main.php:608
+msgid "Pick FontAwesome"
+msgstr ""
+
+#: ql-main.php:645
+msgid "This will save the current visual attributes and update the list. Do you want to proceed?"
+msgstr ""
+
+#: ql-main.php:768
+msgid "Choose an option"
+msgstr ""
+
+#: ql-visual-attributes.php:86
+msgid "You must have <strong>WooCommerce installed and activated</strong> for Visual Attributes to work."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "QueryLoop Visual Attributes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://demo.queryloop.com/visual-attributes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display product attributes visually, as images, icons or colors."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Elio Rivero"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://queryloop.com/"
+msgstr ""

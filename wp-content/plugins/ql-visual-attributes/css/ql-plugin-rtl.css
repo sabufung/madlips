@@ -1,0 +1,44 @@
+/**
+ * QueryLoop Visual Attributes Right To Left Styles
+ * http://queryloop.com
+ */
+.woocommerce .ql-visual-attributes .reset_variations {
+	text-align: left;
+}
+.woocommerce .va-picker {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.woocommerce .va-attribute-label {
+	float: right;
+	clear: right;
+	margin-right: auto;
+	margin-left: 2%;
+}
+.woocommerce .genericon:before {
+	padding-left: 0;
+	padding-right: .043em;
+}
+.va-tooltip .va-picker:hover .va-info:after {
+	left: 10px;
+	right: auto;
+}
+.va-tooltip .va-info {
+	left: auto;
+	right: 50%;
+	transform: translate(50%,0);
+}
+.va-tooltip .va-picker:hover .va-info:after {
+	left: auto;
+	right: 50%;
+	margin-left: 0;
+	margin-right: -5px;
+}
+.va-tooltip .va-picker.va-tooltip-left .va-info {
+	left: auto;
+	right: 0;
+}
+.va-tooltip .va-picker.va-tooltip-left:hover .va-info:after {
+	left: auto;
+	right: 15px;
+}

@@ -1,0 +1,33 @@
+/**
+ * QueryLoop Plugin Right To Left Admin Styles
+ */
+.pick-color {
+	left: auto;
+	right: 34px;
+}
+.minicolors input.minicolors-input[type=text] {
+	padding-left: 0;
+	padding-right: 28px;
+}
+.minicolors .minicolors-swatch {
+	left: auto;
+	right: 3px;
+}
+.minicolors .clear-color {
+    right: auto;
+    left: 8px;
+}
+@media screen and (max-width: 782px) {
+	.pick-color {
+		left: auto;
+		right: 44px;
+	}
+	.minicolors .ql-color-picker.minicolors-input[type=text] {
+		padding-left: 0;
+		padding-right: 35px;
+	}
+	.minicolors .clear-color {
+		right: auto;
+		left: -32px;
+	}
+}

@@ -1,0 +1,39 @@
+/**
+ * QueryLoop Product Panel Styling Right To Left Styles
+ */
+.visual_attributes.woocommerce_options_panel label, .woocommerce_options_panel legend {
+	float: right;
+	margin: 0 -150px 0 0;
+}
+.visual_attributes.woocommerce_options_panel .form-field {
+	padding: 5px 162px 5px 20px!important;
+}
+.va-preview {
+	float: right;
+	margin-left: 0;
+	margin-right: 10px;
+}
+.pick-color {
+	left: auto;
+	right: 34px;
+}
+.minicolors .ql-color-picker.minicolors-input[type=text] {
+	padding-left: 0;
+	padding-right: 28px;
+}
+.minicolors .minicolors-swatch {
+	left: auto;
+	right: 3px;
+}
+.minicolors .clear-color {
+	right: auto;
+	left: 8px;
+}
+@media screen and (max-width: 782px) {
+	.minicolors .ql-color-picker.minicolors-input[type=text] {
+		padding-right: 35px;
+	}
+	.minicolors .clear-color {
+		right: -35px;
+	}
+}

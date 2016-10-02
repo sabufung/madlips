@@ -1,0 +1,36 @@
+/**
+ * QueryLoop Plugin Admin Styles
+ */
+.wrap .form-table {
+	margin-bottom: 2em;
+}
+.settings_page_ql_touch_product_gallery_options .form-table th {
+	width: 220px;
+}
+@media screen and (max-width: 782px) {
+	#wpbody select[multiple] {
+		height: auto;	
+	}
+	.pick-color {
+		top: 14px;
+		left: 44px;
+	}
+	.minicolors .minicolors-swatch {
+		top: 2px;
+		width: 30px;
+		height: 36px;
+	}
+	.minicolors .ql-color-picker.minicolors-input[type=text] {
+		padding-left: 35px;
+    	height: 40px;
+    	width: 157px;
+    }
+	.minicolors .clear-color {
+		right: -32px;
+		top: 7px;
+		width: 25px;
+		height: 15px;
+		padding: 3px 1px 8px;
+		font-size: 21px;
+	}
+}

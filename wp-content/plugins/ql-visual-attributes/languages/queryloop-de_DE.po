@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QueryLoop Visual Attributes\n"
+"POT-Creation-Date: 2015-02-19 22:18-0300\n"
+"PO-Revision-Date: 2015-02-19 22:22-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ql-admin.php:68
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Keine Änderung &mdash;"
+
+#: ../ql-admin.php:69 ../ql-main.php:127
+msgid "Use General State Option"
+msgstr "Verwenden Allgemeine Zustand Option"
+
+#: ../ql-admin.php:70 ../ql-admin.php:752 ../ql-main.php:128
+#: ../ql-main.php:319
+msgid "Yes"
+msgstr "Ja"
+
+#: ../ql-admin.php:71 ../ql-admin.php:753 ../ql-main.php:129
+#: ../ql-main.php:318
+msgid "No"
+msgstr "Nein"
+
+#: ../ql-admin.php:93
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: ../ql-admin.php:94
+#, php-format
+msgid ""
+"Thanks for purchasing %s. This plugin displays attributes as images, icons "
+"or colors."
+msgstr ""
+"Vielen Dank f&uuml;r den Kauf von %s. Dieses Plugin zeigt Attribute als "
+"Bilder, Icons oder Farben"
+
+#: ../ql-admin.php:95
+msgid "About the settings"
+msgstr "&Uuml;ber die Einstellungen"
+
+#: ../ql-admin.php:96
+msgid ""
+"The settings in this page set default values to be used throughout the site."
+msgstr ""
+"Die Einstellungen auf dieser Seite setzen Default-Werte, die auf der ganzen "
+"Seite angezeigt werden."
+
+#: ../ql-admin.php:98
+#, php-format
+msgid "%s created by Elio Rivero. Follow %s on Twitter for the latest updates."
+msgstr ""
+"%s erstellt bon Elio Rivero. Folge %s auf Twitter für die letzten Updates."
+
+#: ../ql-admin.php:105
+msgid "Introduction"
+msgstr "Einf&uuml;hrung"
+
+#: ../ql-admin.php:117
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben keine ausreichenden Berechtigungen, um die Seite aufzurufen."
+
+#: ../ql-admin.php:126
+msgid "Submit"
+msgstr "Absenden"
+
+#: ../ql-admin.php:140 ../ql-main.php:120
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../ql-admin.php:142
+msgid "Global Styling"
+msgstr "Globales Styling"
+
+#: ../ql-admin.php:147
+msgid "General State"
+msgstr "Allgemeine Zustand"
+
+#: ../ql-admin.php:151
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: ../ql-admin.php:152
+msgid "Disabled"
+msgstr "Behindert"
+
+#: ../ql-admin.php:154
+msgid "You can enable or disable Visual Attributes on each product."
+msgstr "Aktivieren oder Deaktivieren von Visual Attribute zu jedem Produkt."
+
+#: ../ql-admin.php:158
+msgid "Context of Use"
+msgstr "Nutzung in Umgebung"
+
+#: ../ql-admin.php:162
+msgid "Mobile &amp; Desktop"
+msgstr "Mobil &amp; Desktop"
+
+#: ../ql-admin.php:163
+msgid "Mobile Only"
+msgstr "Nur mobile Ger&auml;te"
+
+#: ../ql-admin.php:164
+msgid "Desktop Only"
+msgstr "Nur Desktop-Ger&auml;te"
+
+#: ../ql-admin.php:166
+msgid "When to display Visual Attributes."
+msgstr "Wenn Sie Visual Attribute anzuzeigen."
+
+#: ../ql-admin.php:173
+msgid "Option Border Size"
+msgstr "Option Rahmengr&ouml;&szlig;e"
+
+#: ../ql-admin.php:177
+msgid "Border width of option in pixels. Enter 0 to remove."
+msgstr "Rahmenbreite in Pixeln. Geben Sie 0 ein zum Entfernen"
+
+#: ../ql-admin.php:181
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: ../ql-admin.php:187
+msgid "Selected Border"
+msgstr "Gew&auml;hlter Rahmen"
+
+#: ../ql-admin.php:193
+msgid "Image Width"
+msgstr "Bildbreite"
+
+#: ../ql-admin.php:197
+msgid "Maximum width of image option in pixels."
+msgstr "Maximalbreite eines Bildes in Pixeln"
+
+#: ../ql-admin.php:201
+msgid "Icon Size"
+msgstr "Symbolgr&ouml;&szlig;e"
+
+#: ../ql-admin.php:205
+msgid "Size of icon option in pixels."
+msgstr "Symbolgr&ouml;&szlig;e in Pixeln"
+
+#: ../ql-admin.php:209
+msgid "Icon Color"
+msgstr "Icon Farbe"
+
+#: ../ql-admin.php:215
+msgid "Icon Background"
+msgstr "Icon Hintergrund"
+
+#: ../ql-admin.php:221
+msgid "Color Swatch Size"
+msgstr "Farbmuster-Gr&ouml;&szlig;e"
+
+#: ../ql-admin.php:225
+msgid "Size of color swatch option in pixels."
+msgstr "Gr&ouml;&szlig;e des Farbmusters in Pixeln."
+
+#: ../ql-admin.php:229
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: ../ql-admin.php:233
+msgid "Enter custom CSS to adjust styling details."
+msgstr "Hier benutzerdefiniertes CSS eingeben, um Details Fein zu tunen."
+
+#: ../ql-admin.php:238
+msgid "Custom JavaScript"
+msgstr "Benutzerdefiniertes JavaScript"
+
+#: ../ql-admin.php:243
+msgid "Enter custom JavaScript to be run on footer."
+msgstr ""
+"Hier Benutzerdefiniertes JavaScript eingeben, da&szlig; im Footer l&auml;uft."
+
+#: ../ql-admin.php:345
+msgid "Set default settings for the plugin."
+msgstr "Default-Einstellunge f&uuml;r das Plugin setzen."
+
+#: ../ql-admin.php:353
+msgid "Use this section to tweak the style."
+msgstr "Diesen Bereich benutzen, um den Style anzupassen."
+
+#: ../ql-admin.php:480 ../ql-main.php:412 ../ql-main.php:431
+#: ../ql-main.php:451
+msgid "Pick Color"
+msgstr "Farbe ausw&auml;hlen"
+
+#: ../ql-admin.php:571
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../ql-admin.php:572
+msgid "Access the support forums"
+msgstr "Das Support-Forum aufrufen"
+
+#: ../ql-admin.php:572
+msgid "Support"
+msgstr "Support"
+
+#: ../ql-admin.php:737
+msgid "Posts"
+msgstr "Posts"
+
+#: ../ql-admin.php:738
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../ql-main.php:98
+msgid "Visual Attributes"
+msgstr "Visual Attributes"
+
+#: ../ql-main.php:125
+msgid "Disable Visual Attributes"
+msgstr "Visual Attributes deaktivieren"
+
+#: ../ql-main.php:137
+msgid "Hide Additional Information Tab"
+msgstr "Zus&auml;tzlichen Informationstab verbergen"
+
+#: ../ql-main.php:142
+msgid "Attribute Settings"
+msgstr "Attributeinstellungen"
+
+#: ../ql-main.php:144
+msgid "Update Attributes List"
+msgstr "Attributliste aktualisieren"
+
+#: ../ql-main.php:307
+msgid "Use Standard Dropdown"
+msgstr "Standard-Auswahlmen&uuml; verwenden"
+
+#: ../ql-main.php:320
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: ../ql-main.php:323
+msgid "Show Attribute Name"
+msgstr "Attributname zeigen"
+
+#: ../ql-main.php:366
+msgid "Image"
+msgstr "Bild"
+
+#: ../ql-main.php:367
+msgid "Icon"
+msgstr "Symbol"
+
+#: ../ql-main.php:368
+msgid "Color"
+msgstr "Farbe"
+
+#: ../ql-main.php:385
+msgid "Select Image"
+msgstr "Farbe ausw&auml;hlen"
+
+#: ../ql-main.php:410
+msgid "Front Color"
+msgstr "Vordergrundfarbe"
+
+#: ../ql-main.php:429
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: ../ql-main.php:475
+msgid "Looks like you haven't added attributes yet."
+msgstr ""
+
+#: ../ql-main.php:477
+msgid "Start by adding attributes in the Attributes tab."
+msgstr ""
+
+#: ../ql-main.php:478
+msgid ""
+"If it's a variable product, define the variations in the Variations tab."
+msgstr ""
+
+#: ../ql-main.php:479
+msgid "Once you're done, come back here and add visual elements."
+msgstr ""
+
+#: ../ql-main.php:604
+msgid "Pick Genericon"
+msgstr "Genericon ausw&auml;hlen"
+
+#: ../ql-main.php:608
+msgid "Pick FontAwesome"
+msgstr "FontAwesome ausw&auml;hlen"
+
+#: ../ql-main.php:645
+msgid ""
+"This will save the current visual attributes and update the list. Do you "
+"want to proceed?"
+msgstr ""
+"Dieses wird die aktuellen visual attributes speichen und die Liste "
+"aktualisieren. Wollen Sie fortfahren?"
+
+#: ../ql-main.php:768
+msgid "Choose an option"
+msgstr "Option ausw&auml;hlen"
+
+#: ../ql-visual-attributes.php:86
+msgid ""
+"You must have <strong>WooCommerce installed and activated</strong> for "
+"Visual Attributes to work."
+msgstr ""
+"Visual Attributes erfordert <strong>WooCommerce installiert und aktiviert</"
+"strong>."

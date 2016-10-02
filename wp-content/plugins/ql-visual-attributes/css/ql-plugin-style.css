@@ -1,0 +1,250 @@
+/**
+ * QueryLoop Visual Attributes Styles
+ * http://queryloop.com
+ */
+.woocommerce .variations {
+	display: none;
+}
+.woocommerce .ql-visual-attributes .reset_variations {
+	clear: both;
+	display: block;
+	text-align: right;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+/* Hide attributes initially */
+.ql-visual-attributes.va-variable, .single_variation_wrap {
+	display: none;
+}
+
+/* Options */
+.va-pickers {
+	display: inline-block;
+}
+.variations_form .va-pickers {
+	width: 70%;
+}
+.woocommerce .va-picker {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 5px 7px 0;
+	position: relative;
+	line-height: 1;
+	vertical-align: bottom;
+}
+.va-variable .va-picker {
+	cursor: pointer;
+}
+.va-picker:focus, .va-picker:active {
+    border: 0;
+    outline : 0;
+}
+.woocommerce .va-picker .va-picker-item {
+	padding: 0;
+	margin: 0 0 5px;
+	border: 2px solid #eee;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity:1;
+	-webkit-transition: border .3s ease-out, opacity .3s ease-out;
+	transition: border .3s ease-out, opacity .3s ease-out;
+}
+.woocommerce .va-selected .va-picker-item {
+	border-color: #d56;
+}
+.woocommerce .va-attribute-label {
+	float: left;
+	clear: left;
+	width: 28%;
+	margin-right: 2%;
+	font-weight: 600;
+	font-size: 16px;
+}
+.woocommerce .va-separator {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 12px;
+	padding-bottom: 5px;
+}
+.woocommerce .va-separator:first-of-type {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.woocommerce .va-picker.va-hidden .va-picker-item {
+	cursor: default;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	opacity:.4;
+}
+.woocommerce .va-reclick .va-hidden .va-picker-item {
+	cursor: pointer;
+}
+
+/* Image */
+.woocommerce .va-picker img {
+	max-width: 64px;
+}
+
+/* Icon */
+.woocommerce .va-picker .va-icon {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	display: block;
+}
+.woocommerce .va-picker .va-icon:before {
+	font-size: 32px;
+}
+.woocommerce .genericon:before {
+	padding-left: .043em;
+}
+
+/* Color */
+.woocommerce .va-color {
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+/* Select */
+.woocommerce .ql-visual-attributes select {
+	margin: 0;
+	padding: 2px;
+	border: 3px solid #eee;
+}
+
+/* Text */
+.woocommerce .va-picker .va-text {
+	display: block;
+	line-height: 1.5;
+	font-size: 16px;
+	height: 24px;
+	padding: 4px 0;
+	min-width: 32px;
+	text-align: center;
+}
+
+/* Name */
+.va-info {
+	display: block;
+	color: #333;
+}
+.va-tooltip .va-info {
+	color: #fff;
+	background: #000;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	border-radius: 3px;
+	text-align: center;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	visibility: hidden;
+	min-width: 60px;
+	padding: 0;
+	position: absolute;
+	bottom: 80%;
+	left: 50%;
+	line-height: 1.2;
+	-webkit-transform: translate(-50%,-5px);
+	transform: translate(-50%,-5px);
+}
+.va-tooltip .va-picker:hover .va-info {
+	visibility: visible;
+	bottom: 100%;
+	opacity: 1;
+	z-index: 5;
+}
+.va-tooltip .va-picker .va-info:after {
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: #000;
+	border-width: 5px;
+}
+.va-tooltip .va-name {
+	display: block;
+	padding: 5px 10px;
+}
+.va-has-description .va-name {
+	font-size: larger;
+	padding: 10px 12px 5px;
+}
+.va-tooltip .va-description {
+	display: block;
+	min-width: 200px;
+	padding: 10px 0;
+	margin: 5px 12px;
+	border-top: 1px solid #444;
+}
+.va-tooltip .va-picker.va-tooltip-left .va-info {
+	left: 0;
+	transform: translate(0,-5px);
+}
+.va-tooltip .va-picker.va-tooltip-left .va-info:after {
+	left: 15px;
+}
+.va-tooltip .va-picker.va-tooltip-right .va-info {
+	left: auto;
+	right: 0;
+	transform: translate(0,-5px);
+}
+.va-tooltip .va-picker.va-tooltip-right .va-info:after {
+	left: auto;
+	right: 15px;
+	margin-right: 0;
+}
+.va-tooltip .va-picker.va-tooltip-bottom .va-info {
+	top: 50%;
+	bottom: auto;
+	-webkit-transform: translate(-50%,5px);
+	transform: translate(-50%,5px);
+}
+.va-tooltip .va-picker.va-tooltip-bottom:hover .va-info {
+	top: 90%;
+	bottom: auto;
+}
+.va-tooltip .va-picker.va-tooltip-bottom:hover .va-info:after {
+	top: -10px;
+	border-top-color: transparent;
+	border-bottom-color: #000;
+	border-width: 5px;
+}
+
+/* Attributes on loop */
+.ql-visual-attributes.va-show-on-loop {
+	display: block;
+	padding-top: 10px;
+}
+.va-show-on-loop .va-attribute-label {
+	float: none;
+	clear: both;
+	font-size: 12px;
+	margin-bottom: 7px;
+	display: inline-block;
+	width: 100%;
+}
+.woocommerce .ql-visual-attributes.va-show-on-loop .va-picker .va-image,
+.woocommerce .ql-visual-attributes.va-show-on-loop .va-picker .va-icon,
+.woocommerce .ql-visual-attributes.va-show-on-loop .va-picker .va-color {
+	max-width: 32px;
+}
+
+/* Attributes in Additional Information Tab */
+table.ql-visual-attributes th {
+	vertical-align: middle;
+}
+table.ql-visual-attributes .va-pickers {
+	padding: 8px 0;
+	vertical-align: bottom;
+}
+table.ql-visual-attributes .va-picker {
+	cursor: default;
+}
+.woocommerce table.ql-visual-attributes .va-picker-item, .woocommerce table.ql-visual-attributes .va-selected .va-picker-item {
+	border-width: 0;
+	box-shadow: none;
+}

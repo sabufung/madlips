@@ -24,8 +24,8 @@ global $woocommerce;
 					<?php get_template_part('templates/header/login','link' ); ?>
 				</div>
 				<div class="site-top-right">
-					<?php get_template_part('templates/header/my','setting' ); ?>
-					<?php get_template_part('templates/header/language' ); ?>
+					<?php get_template_part('templates/header/my','setting' ); ?> 
+					
 				</div>
 			</div>
 		</div>
@@ -35,6 +35,7 @@ global $woocommerce;
 		<nav class="zorka-navbar" role="navigation">
 			<div class="container">
 				<div class="zorka-navbar-header">
+				<?php get_template_part('templates/header/language' ); ?>
 					<?php get_template_part('templates/header/social','link' ); ?>
 					<?php get_template_part('templates/header/header','logo' ); ?>
 					<?php get_template_part('templates/header/mini','cart' ); ?>

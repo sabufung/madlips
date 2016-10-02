@@ -1,0 +1,205 @@
+/**
+ * QueryLoop Product Panel Styling
+ */
+
+/* Icons */
+#woocommerce-product-data .wc-tabs .visual_attributes_tab a:before {
+	content: "\e00c";
+}
+
+.js .postbox h3 {
+	cursor: default;
+}
+
+/* Panel */
+.visual_attributes {
+	position: relative;
+}
+.visual_attributes .va-general-heading {
+	border-bottom: 1px solid #eee;
+}
+
+/* Field */
+.visual_attributes div.form-field {
+	padding: 5px 20px 5px 162px!important;
+	margin: 9px 0;
+	font-size: 12px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.woocommerce_options_panel.visual_attributes select {
+	float: none;
+}
+
+/* Use standard dropdown */
+.va-standard-dropdown input[type=checkbox] {
+	width: auto;
+}
+
+/* Update */
+.va-update-desc {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* Type selector */
+.form-field .va-select-type {
+	width: auto;
+}
+.va-selector {
+	padding: 3px 10px 4px;
+	text-decoration: none;
+	border: 1px solid transparent;
+}
+.va-selector.selected {
+	border: 1px solid #ccc;
+	border-bottom: none;
+	color: #333;
+}
+.va-types {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+/* Show on loop */
+.va-show-on-loop-wrapper {
+	padding: 0 2% 10px ;
+}
+.woocommerce_options_panel .va-show-on-loop-wrapper .select2-container, .va-show-on-loop-wrapper select {
+	width: 100%!important;
+	margin-bottom: 10px;
+	
+}
+.woocommerce_options_panel .va-show-on-loop-wrapper input.va-show-on-loop-text + .howto {
+	clear: both;
+	padding: 0;
+}
+
+/* Image Picker */
+.image-picker-wrap {
+	overflow: hidden;
+}
+.va-preview {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+.va-preview img {
+	max-width: 96px;
+	vertical-align: top;
+}
+.va-preview .remove-image, .va-preview-icon .remove-icon {
+	background: #F16666;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	font-size: 16px;
+	padding: 1px;
+	position: absolute;
+	-webkit-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+}
+.va-preview .remove-image:hover {
+	background: red;
+}
+
+/* Icon Picker */
+.inline-open {
+	z-index: 1;
+}
+.va-preview-icon {
+	float: left;
+	height: 0;
+	width: 96px;
+	margin-right: 27px;
+	position: relative;
+	-webkit-transition: height 0.2s ease-out;
+	transition: height 0.2s ease-out;
+}
+.va-preview-icon.icon-preview-on {
+	height: 96px;
+}
+.va-preview-icon i {
+	font-size: 96px;
+}
+.va-preview-icon .remove-icon {
+	top: 0;
+	left: 0;
+}
+.icon-picker-wrap .open-icons {
+	margin-bottom: 10px;
+}
+.visual_attributes .icon-color-picker {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+/* Color Picker */
+.icon-picker-wrap .color-picker-wrap, .text-picker-wrap .color-picker-wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+}
+.icon-picker-wrap .color-label, .text-picker-wrap .color-label {
+	display: inline-block;
+	width: 30%;
+	line-height: 140%;
+	font-size: 12px;
+}
+
+/* Text Picker */
+.va-types .text-picker-wrap .va_text{
+  float: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 850px){
+	.ql_plugin_metabox label{
+		width: 33%;
+	}
+	.ql_plugin_metabox .description{
+		padding-left: 35%;
+	}
+}
+@media screen and (max-width: 782px) {
+	.pick-color {
+		top: 14px;
+		left: 44px;
+	}
+	.minicolors .minicolors-swatch {
+		top: 2px;
+		width: 30px;
+		height: 32px;
+	}
+	.minicolors .ql-color-picker.minicolors-input[type=text] {
+	    padding-left: 35px;
+	    height: 35px;
+    	width: 157px;
+    }
+	.minicolors .clear-color {
+		right: -35px;
+		top: 5px;
+		width: 25px;
+		height: 15px;
+		padding: 3px 1px 8px;
+		font-size: 21px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.ql_plugin_metabox label{
+		float: none;
+		clear: both;
+		display: block;
+		width: 100%;
+	}
+	.ql_plugin_metabox input[type=text],
+	.ql_plugin_metabox select{
+		width: 100%;
+		clear: both;
+	}
+	.ql_plugin_metabox .description{
+		display: block;
+		clear: both;
+		padding-left:0;
+	}
+}

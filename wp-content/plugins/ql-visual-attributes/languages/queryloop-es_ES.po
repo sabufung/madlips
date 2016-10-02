@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Internalinks\n"
+"POT-Creation-Date: 2015-02-19 22:22-0300\n"
+"PO-Revision-Date: 2015-02-19 22:22-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ql-admin.php:68
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Sin cambios &mdash;"
+
+#: ../ql-admin.php:69 ../ql-main.php:127
+msgid "Use General State Option"
+msgstr "Usar opción Estado general"
+
+#: ../ql-admin.php:70 ../ql-admin.php:752 ../ql-main.php:128
+#: ../ql-main.php:319
+msgid "Yes"
+msgstr "S&iacute;"
+
+#: ../ql-admin.php:71 ../ql-admin.php:753 ../ql-main.php:129
+#: ../ql-main.php:318
+msgid "No"
+msgstr "No"
+
+#: ../ql-admin.php:93
+msgid "Welcome!"
+msgstr "Bienvenido"
+
+#: ../ql-admin.php:94
+#, php-format
+msgid ""
+"Thanks for purchasing %s. This plugin displays attributes as images, icons "
+"or colors."
+msgstr ""
+"Gracias por comprar %s. Este plugin muestra atributos en forma de imágenes, "
+"íconos y colors."
+
+#: ../ql-admin.php:95
+msgid "About the settings"
+msgstr "Acerca de los ajustes"
+
+#: ../ql-admin.php:96
+msgid ""
+"The settings in this page set default values to be used throughout the site."
+msgstr ""
+"Los ajustes en esta página establecen valores predeterminados a ser usados "
+"en el sitio."
+
+#: ../ql-admin.php:98
+#, php-format
+msgid "%s created by Elio Rivero. Follow %s on Twitter for the latest updates."
+msgstr ""
+"%s creado por Elio Rivero. Sigue %s en Twitter para las últimas novedades."
+
+#: ../ql-admin.php:105
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../ql-admin.php:117
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+#: ../ql-admin.php:126
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../ql-admin.php:140 ../ql-main.php:120
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: ../ql-admin.php:142
+msgid "Global Styling"
+msgstr "Estilizado global"
+
+#: ../ql-admin.php:147
+msgid "General State"
+msgstr "Estado general"
+
+#: ../ql-admin.php:151
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../ql-admin.php:152
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../ql-admin.php:154
+msgid "You can enable or disable Visual Attributes on each product."
+msgstr "Puedes habilitar los Atributos Visuales o no en cada producto."
+
+#: ../ql-admin.php:158
+msgid "Context of Use"
+msgstr "Contexto de uso"
+
+#: ../ql-admin.php:162
+msgid "Mobile &amp; Desktop"
+msgstr "Móvil &amp; escritorio"
+
+#: ../ql-admin.php:163
+msgid "Mobile Only"
+msgstr "Sólo móvil"
+
+#: ../ql-admin.php:164
+msgid "Desktop Only"
+msgstr "Sólo escritorio"
+
+#: ../ql-admin.php:166
+msgid "When to display Visual Attributes."
+msgstr "Cuando mostrar Atributos Visuales."
+
+#: ../ql-admin.php:173
+msgid "Option Border Size"
+msgstr "Tamaño del borde de la opción"
+
+#: ../ql-admin.php:177
+msgid "Border width of option in pixels. Enter 0 to remove."
+msgstr "Ancho del border en píxels. Ingresa 0 para remover."
+
+#: ../ql-admin.php:181
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: ../ql-admin.php:187
+msgid "Selected Border"
+msgstr "Borde de la selección"
+
+#: ../ql-admin.php:193
+msgid "Image Width"
+msgstr "Ancho de la imagen"
+
+#: ../ql-admin.php:197
+msgid "Maximum width of image option in pixels."
+msgstr "Tamaño máximo de la opción imagen en píxels."
+
+#: ../ql-admin.php:201
+msgid "Icon Size"
+msgstr "Tamaño del ícono"
+
+#: ../ql-admin.php:205
+msgid "Size of icon option in pixels."
+msgstr "Tamaño de la opción ícono en píxels."
+
+#: ../ql-admin.php:209
+msgid "Icon Color"
+msgstr "Color del ícono"
+
+#: ../ql-admin.php:215
+msgid "Icon Background"
+msgstr "Fondo del ícono"
+
+#: ../ql-admin.php:221
+msgid "Color Swatch Size"
+msgstr "Tamaño de la muestra de color"
+
+#: ../ql-admin.php:225
+msgid "Size of color swatch option in pixels."
+msgstr "Tamaño de la opción de color en píxels."
+
+#: ../ql-admin.php:229
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: ../ql-admin.php:233
+msgid "Enter custom CSS to adjust styling details."
+msgstr "Ingresa tu CSS personalizado para ajustar detalles."
+
+#: ../ql-admin.php:238
+msgid "Custom JavaScript"
+msgstr "JavaScript personalizado"
+
+#: ../ql-admin.php:243
+msgid "Enter custom JavaScript to be run on footer."
+msgstr "Ingresa tu JavaScript a ejecutar en el pie de página."
+
+#: ../ql-admin.php:345
+msgid "Set default settings for the plugin."
+msgstr "Establece ajustes predeterminados para el plugin."
+
+#: ../ql-admin.php:353
+msgid "Use this section to tweak the style."
+msgstr "Usa esta sección para ajustar el estilo."
+
+#: ../ql-admin.php:480 ../ql-main.php:412 ../ql-main.php:431
+#: ../ql-main.php:451
+msgid "Pick Color"
+msgstr "Escoje color"
+
+#: ../ql-admin.php:571
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../ql-admin.php:572
+msgid "Access the support forums"
+msgstr "Accede a los foros de soporte"
+
+#: ../ql-admin.php:572
+msgid "Support"
+msgstr "Soporte"
+
+#: ../ql-admin.php:737
+msgid "Posts"
+msgstr "Entradas"
+
+#: ../ql-admin.php:738
+msgid "Pages"
+msgstr "P&aacute;ginas"
+
+#: ../ql-main.php:98
+msgid "Visual Attributes"
+msgstr "Atributos Visuales"
+
+#: ../ql-main.php:125
+msgid "Disable Visual Attributes"
+msgstr "Deshabilitar Atributos Visuales."
+
+#: ../ql-main.php:137
+msgid "Hide Additional Information Tab"
+msgstr "Oculta pestaña Información adicional"
+
+#: ../ql-main.php:142
+msgid "Attribute Settings"
+msgstr "Ajustes de atributos"
+
+#: ../ql-main.php:144
+msgid "Update Attributes List"
+msgstr "Actualizar lista de attributos"
+
+#: ../ql-main.php:307
+msgid "Use Standard Dropdown"
+msgstr "Usar menú desplegable estándar"
+
+#: ../ql-main.php:320
+msgid "Tooltip"
+msgstr "Ayuda"
+
+#: ../ql-main.php:323
+msgid "Show Attribute Name"
+msgstr "Mostrar nombre del atributo"
+
+#: ../ql-main.php:366
+msgid "Image"
+msgstr "Imagen"
+
+#: ../ql-main.php:367
+msgid "Icon"
+msgstr "Ícono"
+
+#: ../ql-main.php:368
+msgid "Color"
+msgstr "Color"
+
+#: ../ql-main.php:385
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: ../ql-main.php:410
+msgid "Front Color"
+msgstr "Color frontal"
+
+#: ../ql-main.php:429
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: ../ql-main.php:475
+msgid "Looks like you haven't added attributes yet."
+msgstr "Parece que no agregaste atributos aún."
+
+#: ../ql-main.php:477
+msgid "Start by adding attributes in the Attributes tab."
+msgstr "Comienza agregando atributos en la pestaña Atributos."
+
+#: ../ql-main.php:478
+msgid ""
+"If it's a variable product, define the variations in the Variations tab."
+msgstr ""
+"Si es un producto variable, define las variantes in la pestaña Variations"
+
+#: ../ql-main.php:479
+msgid "Once you're done, come back here and add visual elements."
+msgstr "Una vez terminado esto, vuelve y agrega elementos visuales."
+
+#: ../ql-main.php:604
+msgid "Pick Genericon"
+msgstr "Elige un Genericon"
+
+#: ../ql-main.php:608
+msgid "Pick FontAwesome"
+msgstr "Elige un FontAwesome"
+
+#: ../ql-main.php:645
+msgid ""
+"This will save the current visual attributes and update the list. Do you "
+"want to proceed?"
+msgstr ""
+"Esto guardará los atributos visuales y actualizará la lista. Quieres "
+"proceder?"
+
+#: ../ql-main.php:768
+msgid "Choose an option"
+msgstr "Elige una opción"
+
+#: ../ql-visual-attributes.php:86
+msgid ""
+"You must have <strong>WooCommerce installed and activated</strong> for "
+"Visual Attributes to work."
+msgstr ""
+"Debes tener <strong>WooCommerce instalado y activado</strong> para que "
+"Visual Attributes funcione."
+
+#~ msgid "When to use the touch swipe gallery."
+#~ msgstr "Define cuándo usar la galería táctil."
+
+#~ msgid "If you added or removed an attribute, update the list"
+#~ msgstr "Si agregaste or quitaste un atributo, actualiza la lista"
+
+#~ msgid ""
+#~ "Thanks for purchasing %s. This plugin replaces the standard lightbox for "
+#~ "product galleries with a fullscreen, touch enabled gallery."
+#~ msgstr ""
+#~ "Gracias por comprar %s. Este plugin reemplaza la lightbox estándar de "
+#~ "galería de productos con una galería a pantalla completa táctil."
+
+#~ msgid "Default Gallery"
+#~ msgstr "Galería predeterminada"
+
+#~ msgid "Touch Swipe Gallery"
+#~ msgstr "Galer&iacute;a Táctil Deslizable"
+
+#~ msgid "WooCommerce Standard"
+#~ msgstr "Estándar de WooCommerce"
+
+#~ msgid ""
+#~ "Replace lightbox with touch swipe gallery by default. Can be changed in "
+#~ "each product."
+#~ msgstr ""
+#~ "Reemplaza lightbox con galería táctil de forma predeterminada. Puedes "
+#~ "cambiarla en cada producto."
+
+#~ msgid "Slideshow Timeout"
+#~ msgstr "Pausa entre imágenes"
+
+#~ msgid ""
+#~ "On autoplay mode, how much time is elapsed before the next image slides "
+#~ "in. Time in milliseconds, larger for slower."
+#~ msgstr ""
+#~ "En reproducción automática, cuánto tiempo transcurre antes de que la "
+#~ "próxima imagen entre. Milisegundos, más para más lento."
+
+#~ msgid "Slide Speed"
+#~ msgstr "Velocidad de deslizamiento"
+
+#~ msgid ""
+#~ "On autoplay mode, how fast images slide in. Time in milliseconds, larger "
+#~ "for slower."
+#~ msgstr ""
+#~ "En reproducción automática, cuán rápido se animan las imágenes . "
+#~ "Milisegundos, más para más lento."
+
+#~ msgid "Loop"
+#~ msgstr "Repetir"
+
+#~ msgid ""
+#~ "Whether the gallery starts from the beginning once it reaches the end of "
+#~ "the slides."
+#~ msgstr "Define si la galería comienza del principio al alcanzar el final."
+
+#~ msgid "Image Scale Method"
+#~ msgstr "Método de escalado de imagen"
+
+#~ msgid "Fit"
+#~ msgstr "Encajar"
+
+#~ msgid "Zoom"
+#~ msgstr "Aumentar"
+
+#~ msgid "Fit No Upscale"
+#~ msgstr "Encajar sin agrandar"
+
+#~ msgid ""
+#~ "Fit scales the image until one side fits the viewport. Zoom fills the "
+#~ "screen and might enlarge or crop the image. Fit No Upscale leaves the "
+#~ "image as is and if it's larger than the viewport will fit the larger side."
+#~ msgstr ""
+#~ "Encajar escala la imagen hasta que uno de los lados cubre la ventana. "
+#~ "Aumentar llena la ventana. Ambos pueden agrandar o recortar la imagen. "
+#~ "Encajar sin agrandar deja la imagen como es, si es más grande, encaja el "
+#~ "primer lado que cubra la ventana."
+
+#~ msgid "Caption &amp; Toolbar AutoHide"
+#~ msgstr "Autoocultar epígrafe &amp; controls"
+
+#~ msgid ""
+#~ "Time elapsed before the caption and toolbar dissapear. Set to 0 to have "
+#~ "them always visible."
+#~ msgstr ""
+#~ "Tiempo transcurrido antes de ocultar el epígrafe y los controls. Poner a "
+#~ "0 para que siempre sean visibles."
+
+#~ msgid "Time in milliseconds, larger for slower."
+#~ msgstr "Milisegundos, más para más lento."
+
+#~ msgid "Caption &amp; Toolbar Background"
+#~ msgstr "Fondo de epígrafe &amp; y controles"
+
+#~ msgid "Caption &amp; Toolbar Opacity"
+#~ msgstr "Opacidad de epígrafe &amp; controles"
+
+#~ msgid ""
+#~ "General opacity of the caption and toolbar areas. Set to 1 if you're "
+#~ "setting the opacity through the color pickers."
+#~ msgstr ""
+#~ "Opacidad general del fondo del epígrafe y los controles. Poner a 1 si "
+#~ "estás ajustando la opacidad con el selector de color."
+
+#~ msgid "Caption Background"
+#~ msgstr "Fondo del epígrafe"
+
+#~ msgid "Gallery"
+#~ msgstr "Galer&iacute;a"
+
+#~ msgid "Replace lightbox with touch swipe gallery."
+#~ msgstr "Reemplaza lightbox con la galería táctil."
+
+#~ msgid ""
+#~ "Thanks for purchasing %s. This plugin creates dynamic links to posts, "
+#~ "pages or custom post types in your site based on their slug or ID."
+#~ msgstr "Gracias por comprar %s. Este plugin crea"

@@ -87,7 +87,7 @@ class WPCF7_Contact_Form_List_Table extends WP_List_Table {
 
 	function column_default( $item, $column_name ) {
 		return '';
-    }
+	}
 
 	function column_cb( $item ) {
 		return sprintf(
@@ -100,8 +100,36 @@ class WPCF7_Contact_Form_List_Table extends WP_List_Table {
 		$url = admin_url( 'admin.php?page=wpcf7&post=' . absint( $item->id() ) );
 		$edit_link = add_query_arg( array( 'action' => 'edit' ), $url );
 
+		$output = sprintf(
+			'<a class="row-title" href="%1$s" title="%2$s">%3$s</a>',
+			esc_url( $edit_link ),
+			esc_attr( sprintf( __( 'Edit &#8220;%s&#8221;', 'contact-form-7' ),
+				$item->title() ) ),
+			esc_html( $item->title() ) );
+
+		$output = sprintf( '<strong>%s</strong>', $output );
+
+		if ( wpcf7_validate_configuration()
+		&& current_user_can( 'wpcf7_edit_contact_form', $item->id() ) ) {
+			$config_validator = new WPCF7_ConfigValidator( $item );
+
+			if ( $count_errors = $config_validator->count_errors() ) {
+				$error_notice = sprintf(
+					_n(
+						'%s configuration error found',
+						'%s configuration errors found',
+						$count_errors, 'contact-form-7' ),
+					number_format_i18n( $count_errors ) );
+				$output .= sprintf(
+					'<div class="config-error">%s</div>',
+					$error_notice );
+			}
+		}
+
 		$actions = array(
-			'edit' => '<a href="' . $edit_link . '">' . __( 'Edit', 'contact-form-7' ) . '</a>' );
+			'edit' => sprintf( '<a href="%1$s">%2$s</a>',
+				esc_url( $edit_link ),
+				esc_html( __( 'Edit', 'contact-form-7' ) ) ) );
 
 		if ( current_user_can( 'wpcf7_edit_contact_form', $item->id() ) ) {
 			$copy_link = wp_nonce_url(
@@ -109,41 +137,42 @@ class WPCF7_Contact_Form_List_Table extends WP_List_Table {
 				'wpcf7-copy-contact-form_' . absint( $item->id() ) );
 
 			$actions = array_merge( $actions, array(
-				'copy' => '<a href="' . $copy_link . '">' . __( 'Duplicate', 'contact-form-7' ) . '</a>' ) );
+				'copy' => sprintf( '<a href="%1$s">%2$s</a>',
+					esc_url( $copy_link ),
+					esc_html( __( 'Duplicate', 'contact-form-7' ) ) ) ) );
 		}
 
-		$a = sprintf( '<a class="row-title" href="%1$s" title="%2$s">%3$s</a>',
-			$edit_link,
-			esc_attr( sprintf( __( 'Edit &#8220;%s&#8221;', 'contact-form-7' ),
-				$item->title() ) ),
-			esc_html( $item->title() ) );
+		$output .= $this->row_actions( $actions );
 
-		return '<strong>' . $a . '</strong> ' . $this->row_actions( $actions );
-    }
+		return $output;
+	}
 
 	function column_author( $item ) {
 		$post = get_post( $item->id() );
 
-		if ( ! $post )
+		if ( ! $post ) {
 			return;
+		}
 
 		$author = get_userdata( $post->post_author );
 
+		if ( false === $author ) {
+			return;
+		}
+
 		return esc_html( $author->display_name );
-    }
+	}
 
 	function column_shortcode( $item ) {
-		$shortcodes = array(
-			sprintf( '[contact-form-7 id="%1$d" title="%2$s"]',
-				$item->id(), $item->title() ) );
+		$shortcodes = array( $item->shortcode() );
 
 		$output = '';
 
 		foreach ( $shortcodes as $shortcode ) {
-			$output .= "\n" . '<input type="text"'
+			$output .= "\n" . '<span class="shortcode"><input type="text"'
 				. ' onfocus="this.select();" readonly="readonly"'
 				. ' value="' . esc_attr( $shortcode ) . '"'
-				. ' class="shortcode-in-list-table wp-ui-text-highlight code" />';
+				. ' class="large-text code" /></span>';
 		}
 
 		return trim( $output );
@@ -167,7 +196,5 @@ class WPCF7_Contact_Form_List_Table extends WP_List_Table {
 			$h_time = mysql2date( __( 'Y/m/d', 'contact-form-7' ), $m_time );
 
 		return '<abbr title="' . $t_time . '">' . $h_time . '</abbr>';
-    }
+	}
 }
-
-?>
