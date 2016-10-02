@@ -13047,3 +13047,32 @@ nav {
   display: block;
   background: #d1ebed;
 }
+.language-selector {
+  display: inline-block;
+  width: 4%;
+  padding: 0;
+  margin: 0;
+  height: 37px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.social-link {
+  width: 26% !important;
+}
+#lang_sel a.lang_sel_sel {
+  background: none !important;
+}
+#lang_sel li {
+  width: 40px !important;
+}
+#lang_sel ul ul {
+  width: 40px !important;
+  border-top: 0px solid #cdcdcd !important;
+}
+#lang li.icl-vi a {
+  width: 40px !important;
+}
+#lang_sel a {
+  border: 1px solid #d1ebed !important;
+}

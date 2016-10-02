@@ -25,18 +25,7 @@ $show_language_selector =  isset($zorka_data['show-language-selector']) ? $zorka
 ?>
 <?php if ($count_social_link > 0):?>
 	<ul class="social-link">
-		<?php if (function_exists('icl_get_setting') && ($show_language_selector)):?>
-			<li class="icl-en">
-				<a href="http://localhost/madlips" class="lang_sel_sel">
-					<img class="iclflag" src="http://localhost/madlips/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English">&nbsp;
-				</a>
-			</li>
-			<li class="icl-vi">
-				<a href="http://localhost/madlips?lang=vi" class="lang_sel_other">
-					<img class="iclflag" src="http://localhost/madlips/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt">&nbsp;
-				</a>
-			</li>
-		<?php endif;?>
+		
 		<?php foreach ( $social_link_fields as $key => $value ): ?>
 			<?php if ( isset( $zorka_data[$key] ) && ! empty( $zorka_data[$key] ) ):?>
                 <?php if ($value[2] == 1) : ?>
