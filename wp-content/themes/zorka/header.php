@@ -39,8 +39,82 @@
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
+    <style>
+    	#arfaly-filedrag{
+    		border: none!important;
+		    display: block;
+		    border-radius: 0px;
+		    width: 200px!important;
+		    color: white!important;
+		    font-size: 16px;
+		    padding: 10px 10px;
+		    background-color: #111111;
+		    margin-top: 10px;
+		    font-family: inherit!important;
+   			padding-left: 0px!important;
+    	}
+    	.closify-icon-cloud-storage{
+    		display: none;
+    	}
+    	.closify-holder a:hover {
+		    background-color: inherit!important;
+		    color: inherit!important;
+		    text-decoration: none!important;
+		}
+		.closify-jpages-form{
+			display: none;
+		}
+		.arfaly-list-div{
+			display: none;
+		}
+		.arfaly-oval{
+			border-color: #222222!important;
+			margin-left: 140px;
+			width: 50px!important;
+    		height: 50px!important;
+		}
+		.closify-icon-tick{
+			font-size: 30px!important;
+    		color: #111111!important;
+		}
+		.closify-holder{
+			width: 112px;
+			margin: auto;
+		}
+		.closify-gallery{
+			width: 630px!important;
+    		margin: 25px auto;
+    		float: none!important;
+
+		}
+		.closify-holder a.jp-current{
+			color: #c56422;
+		}
+		div.arfaly-default-theme ul.arfaly-oval-list-info{
+			top: 6px!important;
+		}
+		div.arfaly-default-theme div.notification-oval{
+			width: 40px!important;
+			height: 40px!important;
+		}
+		span.arfaly-loading{
+			top: -22px;
+    		position: relative;
+		}
+		.arfaly-tick-text{
+			display: none!important;
+		}
+    </style>
 <script>
+jQuery(window).load(function(){
+	jQuery("#arfaly-filedrag").html('<i class="fa fa-camera" style="margin-right: 20px" aria-hidden="true"></i>Upload image');
+	jQuery(".jp-previous").addClass("fa fa-arrow-left");
+	jQuery(".jp-previous").text("");
+	jQuery(".jp-next").text("");
+	jQuery(".jp-next").addClass("fa fa-arrow-right");
+});
 jQuery(document).ready(function(){
+	
 jQuery(".product-item-wrapper.col-md-4").each(function(index,element){
 jQuery(element).removeClass("first");
 if ((index) % 3 === 0) { jQuery(element).addClass("first");}
