@@ -23,6 +23,43 @@ require( ABSPATH . WPINC . '/option.php' );
  * @param bool   $translate Whether the return date should be translated. Default true.
  * @return string|int|bool Formatted date string or Unix timestamp. False if $date is empty.
  */
+function generate_coupons15 () {
+$coupon_code = substr( "abcdefghijklmnopqrstuvwxyz123456789", mt_rand(0, 50) , 1) .substr( md5( time() ), 1); // Code
+$coupon_code = substr( $coupon_code, 0,10); // create 10 letters coupon
+$amount = '1'; // Amount
+$discount_type = 'fixed_cart'; // Type: fixed_cart, percent, fixed_product, percent_product
+
+$coupon = array(
+    'post_title' => $coupon_code,
+    'post_content' => '$15 off coupon',
+    'post_excerpt' => '$15 off coupon',
+    'post_status' => 'publish',
+    'post_author' => 1,
+    'post_type'     => 'shop_coupon'
+);
+
+$new_coupon_id = wp_insert_post( $coupon );
+
+// Add meta
+update_post_meta( $new_coupon_id, 'discount_type', $discount_type );
+update_post_meta( $new_coupon_id, 'coupon_amount', $amount );
+update_post_meta( $new_coupon_id, 'individual_use', 'yes' );
+update_post_meta( $new_coupon_id, 'product_ids', '' );
+update_post_meta( $new_coupon_id, 'exclude_product_ids', '' );
+update_post_meta( $new_coupon_id, 'usage_limit', '1' );
+update_post_meta( $new_coupon_id, 'expiry_date', '' );
+update_post_meta( $new_coupon_id, 'apply_before_tax', 'no' );
+update_post_meta( $new_coupon_id, 'free_shipping', 'no' );      
+update_post_meta( $new_coupon_id, 'exclude_sale_items', 'no' );     
+update_post_meta( $new_coupon_id, 'free_shipping', 'no' );      
+update_post_meta( $new_coupon_id, 'product_categories', '' );       
+update_post_meta( $new_coupon_id, 'exclude_product_categories', '' );       
+update_post_meta( $new_coupon_id, 'minimum_amount', '' );       
+update_post_meta( $new_coupon_id, 'customer_email', '' );       
+
+return $coupon_code;
+
+}
 function mysql2date( $format, $date, $translate = true ) {
 	if ( empty( $date ) )
 		return false;
