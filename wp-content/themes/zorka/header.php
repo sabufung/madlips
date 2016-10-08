@@ -106,6 +106,14 @@
 		}
     </style>
 <script>
+jQuery(document).on("submit","#mc4wp-form-1",function(e){
+	jQuery.ajax({
+  method: "GET",
+  url: "gencoupon.php",
+  data: { email: jQuery("#mc4wp-form-1 [name=EMAIL]").val()}
+})
+  e.preventDefault();
+});
 jQuery(window).load(function(){
 	jQuery("#arfaly-filedrag").html('<i class="fa fa-camera" style="margin-right: 20px" aria-hidden="true"></i>Upload image');
 	jQuery(".jp-previous").addClass("fa fa-arrow-left");
