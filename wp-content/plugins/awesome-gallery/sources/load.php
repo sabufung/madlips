@@ -1,0 +1,9 @@
+<?php
+require('manual/source.class.php');
+require('instagram/source.class.php');
+require('flickr/source.class.php');
+require('facebook/source.class.php');
+require('500px/source.class.php');
+require('rss/source.class.php');
+require('nextgen/source.class.php');
+require('posts/source.class.php');

@@ -1,0 +1,2671 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Gallery v1.2.2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-10 11:31+0100\n"
+"Last-Translator: Andreas Reitberger <andy.reitberger@gmail.com>\n"
+"Language-Team: Andreas Reitberger <kontakt@wdbase.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ asg
+#: admin/environment.class.php:22
+msgid "Please increase your memory limit."
+msgstr "Bitte erhöhen Sie Ihr 'Memory Limit'."
+
+# @ asg
+#: admin/environment.class.php:29
+msgid "Please upgrade your WordPress installation"
+msgstr "Bitte aktualisieren Sie Ihre WordPress Installation."
+
+# @ asg
+#: admin/environment.class.php:86
+#, php-format
+msgid ""
+"plugin requires at least WordPress %s.\n"
+"\t\t\t\t\tPlease <a href=\"%s\">update your installation</a> to enable "
+"Awesome Gallery."
+msgstr ""
+"Plugin benötigt mindestens WordPress %s.\n"
+"\t\t\t\t\tBitte <a href=\"%s\">aktualisieren Sie Ihre Installation</a>um "
+"'Awesome Gallery' aktivieren zu können."
+
+# @ asg
+#: admin/environment.class.php:103 admin/environment.class.php:105
+msgid "Can't detect"
+msgstr "Kann nicht ermittelt werden"
+
+# @ asg
+#: admin/environment.class.php:110
+msgid "Memory limit set for PHP is too small and can cause random failures."
+msgstr ""
+"Das 'Memory Limit', welches für PHP gesetzt ist, ist zu klein und kann "
+"zufällige Fehler verursachen."
+
+# @ asg
+#: admin/environment.class.php:112
+msgid "Learn how to increase it"
+msgstr "Lerne, wie Sie dieses Limit erhöhen können"
+
+# @ asg
+#: admin/environment.class.php:116
+msgid ""
+"Not a big deal,\n"
+"\t\t\t\t\t\t\t\t\tbut it is recommended to disable debug mode on production "
+"sites"
+msgstr ""
+"Keine große Sache,\n"
+"\t\t\t\t\t\t\t\t\aber es ist empfohlen, den Debug-Modus bei "
+"Produktionsseiten zu deaktivieren"
+
+# @ asg
+# @ awesome_gallery
+#: admin/environment.class.php:131 admin/settings.class.php:10
+#: integration.php:14 shortcodes.php:28 widgets.php:4 widgets.php:6
+msgid "Awesome Gallery"
+msgstr "Awesome Gallery"
+
+# @ asg
+#: admin/environment.class.php:149
+msgid "Awesome Gallery Support Request"
+msgstr "Awesome Gallery Support Anfrage"
+
+# @ asg
+#: admin/environment.class.php:166
+msgid "Load more will not work"
+msgstr "'Mehr Laden' wird nicht funktionieren"
+
+# @ asg
+#: admin/environment.class.php:171
+msgid ""
+"GD library is required to resize images before displaying. Please contact\n"
+"\t\t\t\t\tyour hosting provider in order to install it."
+msgstr ""
+"GD Library wird benötigt um eine Größenanpassung von Bildern durchführen zu "
+"können, bevor diese angezeigt werden.  Bitte kontaktieren\n"
+"\t\t\t\t\t Sie Ihren Webhoster um dieses Script zu installieren."
+
+# @ asg
+#: admin/environment.class.php:178
+msgid ""
+"This may break \"Load more\" or endless scrolling. To fix this issue,\n"
+"\t\t\t\t\tplease disable security hardening plugins and make sure your ."
+"htaccess file does not restrict an\n"
+"\t\t\t\t\taccess to this file."
+msgstr ""
+"Dies kann die \"Load more\" stören oder ein endloses Scrollen verursachen. "
+"Um diesen Fehler zu beheben,\n"
+"\t\t\t\t\tdeaktivieren Sie bitte Sicherheitssteigernde Plugins und "
+"vergewisseren Sie sich, dass Ihre  .htaccess Datei den \n"
+"\t\t\t\t\tZugriff auf diese Datei verhindert."
+
+# @ asg
+#: admin/environment.class.php:186
+msgid ""
+"Cannot create image cache. Please create wp-content/awesome-gallery/cache "
+"directory manually and allow a write access there"
+msgstr ""
+"Bilder-Cache konnte nicht erstellt werden. Bitte erstellen Sie das  'wp-"
+"content/awesome-gallery/cache' Verzeichnis manuell und erlauben Sie "
+"Schreibzugriff"
+
+# @ asg
+#: admin/environment.class.php:192
+msgid "wp-content directory is not writable, Images may not show right"
+msgstr ""
+"wp-content Verzeichnis ist nicht beschreibbar. Bilder werden nicht richtig "
+"angezeigt"
+
+# @ default
+#: admin/environment.class.php:200
+msgid "Uploads dir is not writable. Images may not show right"
+msgstr ""
+"Das Upload-Verzeichnis ist nicht beschreibbar. Bilder werden nicht richtig "
+"angezeigt"
+
+# @ asg
+#: admin/environment.class.php:249
+#, php-format
+msgid ""
+"Your uploads dir was renamed to %s. Please create <code>wp-content/awesome-"
+"gallery-timthumb-config.php</code> file and add the next <code>%s</code> "
+"line at the top of that file."
+msgstr ""
+"Ihr Upload-Verzeichnis wurde auf %s umbenannt. Bitte erstelle <code>wp-"
+"content/awesome-gallery-timthumb-config.php</code> und fügen Sie die nächste "
+"<code>%s</code> Zeile ganz oben in der Datei ein."
+
+# @ asg
+#: admin/environment.class.php:262
+msgid ""
+"Awesome Gallery requires GD library in order to work correctly. Please "
+"contact your hosting administrator."
+msgstr ""
+"Awesome Gallery benötigt GD Library um richtig arbeiten zu können. Bitte "
+"kontaktieren Sie Ihren Webhoster."
+
+# @ asg
+#: admin/environment.class.php:270
+msgid ""
+"External HTTP requests are not supported. This will break most of image "
+"sources. Please install Curl or other PHP HTTP extension."
+msgstr ""
+"Externe HTTP Abfragen sind nicht unterstützt. Das bricht die meisten "
+"Bildpfade. Bitte installieren Sie Curl oder andere PHP HTTP Erweiterungen."
+
+# @ asg
+#: admin/gallery-editor.class.php:27
+msgid "(copy)"
+msgstr "(Kopie)"
+
+# @ default
+#: admin/gallery-editor.class.php:118
+msgid "Actions"
+msgstr "Aktionen"
+
+# @ asg
+#: admin/gallery-editor.class.php:119
+msgid "Presets"
+msgstr "Voreinstellungen"
+
+# @ asg
+#: admin/gallery-editor.class.php:120
+msgid "Layout"
+msgstr "Layout"
+
+# @ asg
+#: admin/gallery-editor.class.php:121
+msgid "Image options"
+msgstr "Bildoptionen"
+
+# @ asg
+#: admin/gallery-editor.class.php:122 admin/templates/meta-box-style.php:5
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+# @ asg
+#: admin/gallery-editor.class.php:124
+msgid "Load More / Endless scroll"
+msgstr "Mehr laden / Endloses Scrollen"
+
+# @ asg
+#: admin/gallery-editor.class.php:125 functions.php:320
+msgid "Filters"
+msgstr "Filter"
+
+# @ asg
+#: admin/gallery-editor.class.php:126
+msgid "Caching"
+msgstr "Caching"
+
+# @ asg
+#: admin/gallery-editor.class.php:189
+msgid "Gallery updated."
+msgstr "Galerie aktualisiert."
+
+# @ asg
+#: admin/gallery-editor.class.php:190
+msgid "Gallery created."
+msgstr "Galerie erstellt."
+
+# @ asg
+#: admin/image-troubleshooting.class.php:8
+#: admin/image-troubleshooting.class.php:10
+msgid "Image display troubleshooting"
+msgstr "Bildanzeige Fehlerbehebung"
+
+# @ asg
+#: admin/settings.class.php:43
+msgid "Awesome Gallery Settings"
+msgstr "Awesome Gallery Einstellungen"
+
+# @ asg
+#: admin/settings.class.php:47
+msgid "Compatibility"
+msgstr "Kompatibilität"
+
+# @ asg
+#: admin/settings.class.php:49
+msgid "Use shortcode hack"
+msgstr "Nutze Shortcodes"
+
+# @ asg
+#: admin/settings.class.php:52
+msgid ""
+"Try\n"
+"\t\t\t\t\t\t\t\t\t this if Awesome Gallery looks strange on your site"
+msgstr ""
+"Versuche\n"
+"\t\t\t\t\t\t\t\t\t dies, wenn Awesome Gallery merkwürdig auf Ihrer Seite "
+"aussieht"
+
+# @ asg
+#: admin/settings.class.php:58
+msgid "Force new jQuery version"
+msgstr "Zwinge zur Nutzung der neuen jQuery Version"
+
+# @ asg
+#: admin/settings.class.php:62
+msgid ""
+"Try this if Awesome Gallery does\n"
+"\t\t\t\t\t\t\t\tnot work at your site"
+msgstr ""
+"Versuche dies, wenn Awesome Gallery nicht\n"
+"\t\t\t\t\t\t\t\tauf Ihrer Seite funktioniert"
+
+# @ asg
+#: admin/settings.class.php:66
+msgid "Image Processing"
+msgstr "Bildverarbeitung"
+
+# @ asg
+#: admin/settings.class.php:68
+msgid "Processing engine"
+msgstr "Verarbeitungsscript"
+
+# @ asg
+#: admin/settings.class.php:71
+msgid "TimThumb"
+msgstr "TimThumb"
+
+# @ asg
+#: admin/settings.class.php:73
+msgid "Photon"
+msgstr "Photon"
+
+# @ asg
+#: admin/settings.class.php:82
+msgid "CDN host (only for TimThumb)"
+msgstr "CDN Host (nur für TimThumb)"
+
+# @ asg
+#: admin/settings.class.php:86
+msgid "Please make double sure you know what you are doing!"
+msgstr "Bitte vergewissern Sie sich doppelt, ob Sie wissen was Sie tun!"
+
+# @ asg
+#: admin/settings.class.php:89
+msgid "CDN"
+msgstr "CDN"
+
+# @ asg
+#: admin/settings.class.php:91
+msgid "Lightbox integration"
+msgstr "Lightbox Integration"
+
+# @ asg
+# @ default
+#: admin/settings.class.php:93 sources/manual/image.php:49
+msgid "Lightbox"
+msgstr "Lightbox"
+
+# @ asg
+#: admin/settings.class.php:95
+msgid "Magnific popup"
+msgstr "Magnific Popup"
+
+# @ asg
+#: admin/settings.class.php:97
+msgid "Swipebox"
+msgstr "Swipebox"
+
+# @ asg
+#: admin/settings.class.php:99
+msgid "Prettyphoto"
+msgstr "Prettyphoto"
+
+# @ asg
+#: admin/settings.class.php:102
+msgid "iLightbox"
+msgstr "iLightbox"
+
+# @ asg
+#: admin/settings.class.php:109
+#, php-format
+msgid ""
+"You can buy iLightbox at the <a href=\"%s\" target=\"_blank\">CodeCanyon</"
+"a>, install and activate it"
+msgstr ""
+"Sie können iLightbox auf <a href=\"%s\" target=\"_blank\">CodeCanyon</"
+"a>kaufen, installieren und aktivieren"
+
+# @ asg
+#: admin/settings.class.php:113
+msgid "JetPack carousel"
+msgstr "JetPack Karussell"
+
+# @ asg
+#: admin/settings.class.php:118
+msgid "JetPack not installed, not activated, or Carousel module is inactive"
+msgstr ""
+"JetPack ist nicht installiert, inaktiv oder der Karussell Modus ist nicht "
+"aktiviert"
+
+# @ asg
+#: admin/settings.class.php:119
+msgid "Install Jetpack"
+msgstr "Installiere Jetpack"
+
+# @ asg
+#: admin/settings.class.php:123
+msgid "FooBox"
+msgstr "FooBox"
+
+# @ asg
+#: admin/settings.class.php:128
+msgid "FooBox is not installed, or was not activated."
+msgstr "FooBox ist nicht installiert oder inaktiv."
+
+# @ asg
+#: admin/settings.class.php:129
+#, php-format
+msgid ""
+"You can buy FooBox at: <a href=\"%s\" target=\"_blank\">its official site</a>"
+msgstr ""
+"Sie können FooBox auf <a href=\"%s\" target=\"_blank\">der offiziellen "
+"Seite</a> kaufen"
+
+# @ asg
+#: admin/settings.class.php:132
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+# @ asg
+#: admin/settings.class.php:136
+msgid "PrettyPhoto options"
+msgstr "PrettyPhoto Optionen"
+
+# @ asg
+#: admin/settings.class.php:138
+msgid "PrettyPhoto skin"
+msgstr "PrettyPhoto Skin"
+
+# @ asg
+#: admin/settings.class.php:141
+#: admin/templates/meta-box-image-section-caption.php:41
+#: admin/templates/meta-box-image-section-caption.php:44
+#: admin/templates/meta-box-image-section-caption.php:51
+#: admin/templates/meta-box-image-section-caption.php:54
+#: admin/templates/meta-box-style.php:4 presets.php:14
+msgid "Default"
+msgstr "Standard"
+
+# @ asg
+#: admin/settings.class.php:142
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ asg
+#: admin/settings.class.php:143
+msgid "Dark rounded"
+msgstr "Dunkel (abgerundet)"
+
+# @ asg
+#: admin/settings.class.php:144
+msgid "Dark square"
+msgstr "Dunkel (quadratisch)"
+
+# @ asg
+#: admin/settings.class.php:145
+msgid "Light rounded"
+msgstr "Hell (abgerundet)"
+
+# @ asg
+#: admin/settings.class.php:146
+msgid "Light square"
+msgstr "Hell (quadratisch)"
+
+# @ asg
+#: admin/settings.class.php:150
+msgid "Custom lightbox options"
+msgstr "Benutzerdefinierte Lightbox Optionen"
+
+# @ asg
+#: admin/settings.class.php:152
+msgid "Link custom rel attribute value"
+msgstr "Verlinke benutzerdefinierte 'rel=' Eigesnschaftswerte"
+
+# @ asg
+#: admin/settings.class.php:155
+msgid ""
+"If your custom lightbox requires a specific rel attribute value, you can "
+"enter it here."
+msgstr ""
+"Wenn Ihre benutzerdefinierte Lightbox einen spezifischen 'rel' "
+"Eigenschaftswert benötigt, können Sie diesen hier eingeben."
+
+# @ asg
+#: admin/settings.class.php:159
+msgid "Link class"
+msgstr "Link Klasse"
+
+# @ asg
+#: admin/settings.class.php:162
+msgid ""
+"If your custom lightbox requires a specific class, you can enter it here."
+msgstr ""
+"Wenn Ihre benutzerdefinierte Lightbox eine spezifische Klasse benötigt, "
+"können Sie diese hier eingeben."
+
+# @ asg
+#: admin/settings.class.php:166
+msgid "Custom attribute name"
+msgstr "Benutzerdefinierter Eigenschaftsname"
+
+# @ asg
+#: admin/settings.class.php:170
+msgid "Custom attribute value"
+msgstr "Benutzerdefinierter Eigenschaftswert"
+
+# @ asg
+#: admin/settings.class.php:174 admin/templates/meta-box-load-more.php:6
+msgid "Endless scroll"
+msgstr "Endloses Scrollen"
+
+# @ asg
+#: admin/settings.class.php:176
+msgid "Endless scroll binder selector"
+msgstr "Endloses Scrollen Binder Auswähler"
+
+# @ default
+#: admin/settings.class.php:179
+msgid ""
+"jQuery selector for your binder element if some scrolling plugin is used"
+msgstr ""
+"jQuery Auswähler für Ihr Binder Element, wenn Sie Scroller-Plugins benutzen"
+
+# @ namespace
+#: admin/support.class.php:24 admin/support.class.php:25
+msgid "Support"
+msgstr "Support"
+
+# @ namespace
+#: admin/support.class.php:42
+msgid "Please enter your email"
+msgstr "Bitte geben Sie Ihre E-Mail an"
+
+# @ namespace
+#: admin/support.class.php:44
+msgid "Please enter your question"
+msgstr "Bitte geben Sie Ihre Frage an"
+
+# @ namespace
+#: admin/support.class.php:154
+msgid "Warning"
+msgstr "Warnung"
+
+# @ namespace
+# @ asg
+#: admin/support.class.php:157 sources/flickr/editor.class.php:35
+#: sources/flickr/editor.class.php:46 sources/instagram/editor.class.php:39
+#: sources/rss/editor.class.php:14
+msgid "Error"
+msgstr "Fehler"
+
+# @ namespace
+#: admin/support.class.php:160
+msgid "OK"
+msgstr "OK"
+
+# @ asg
+#: admin/templates/edit-form-after-title.php:4 gallery.class.php:86
+msgid "Ask for support"
+msgstr "Um Support bitten"
+
+# @ asg
+#: admin/templates/edit-form-after-title.php:5
+msgid "Edit global settings"
+msgstr "Bearbeite globale Einstellungen"
+
+# @ asg
+#: admin/templates/edit-form-after-title.php:8
+msgid "Shortcode"
+msgstr "Shortcode"
+
+# @ asg
+#: admin/templates/meta-box-caching.php:2
+msgid "Caching duration"
+msgstr "'Caching' Dauer"
+
+# @ asg
+#: admin/templates/meta-box-custom-css.php:14
+msgid "color: #555"
+msgstr "Farbe: #555"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:2
+msgid "Enabled"
+msgstr "Aktiviert"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:4
+#: admin/templates/meta-box-filters.php:19
+msgid "Enable"
+msgstr "Aktivieren"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:5
+#: admin/templates/meta-box-filters.php:20
+msgid "Disable"
+msgstr "Deaktiviern"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:9
+#: admin/templates/meta-box-image-section-caption.php:60
+msgid "Align"
+msgstr "Ausrichten"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:11
+#: admin/templates/meta-box-image-section-caption.php:62
+#: admin/templates/meta-box-layout.php:25
+msgid "Left"
+msgstr "Links"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:12
+#: admin/templates/meta-box-image-section-caption.php:64
+#: admin/templates/meta-box-layout.php:26
+msgid "Right"
+msgstr "Rechts"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:13
+#: admin/templates/meta-box-image-section-caption.php:35
+#: admin/templates/meta-box-image-section-caption.php:63
+#: admin/templates/meta-box-layout.php:24
+msgid "Center"
+msgstr "Mittig"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:17
+msgid "Sorting"
+msgstr "Sortierung"
+
+# @ uber-grid
+#: admin/templates/meta-box-filters.php:23
+msgid "Color: "
+msgstr "Farbe: "
+
+# @ uber-grid
+#: admin/templates/meta-box-filters.php:24
+msgid "Background color: "
+msgstr "Hintergrundfarbe: "
+
+# @ uber-grid
+#: admin/templates/meta-box-filters.php:25
+msgid "Accent color: "
+msgstr "Akzentfarbe: "
+
+# @ uber-grid
+#: admin/templates/meta-box-filters.php:26
+msgid "Accent background color: "
+msgstr "Akzent Hintergrundfarbe: "
+
+# @ uber-grid
+#: admin/templates/meta-box-filters.php:27
+msgid "Border radius: "
+msgstr "Rahmenradius:"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:29
+msgid "All wording"
+msgstr "Alle Benennungen"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:33
+msgid "Only show filters:"
+msgstr "Zeige nur Filter:"
+
+# @ asg
+#: admin/templates/meta-box-filters.php:35
+msgid "Comma-separated filter list"
+msgstr "Mit Komma separierte Filterliste"
+
+# @ asg
+#: admin/templates/meta-box-image-section-border.php:2
+msgid "Width"
+msgstr "Breite"
+
+# @ asg
+#: admin/templates/meta-box-image-section-border.php:6
+#: admin/templates/meta-box-image-section-caption.php:15
+#: admin/templates/meta-box-image-section-shadow.php:26
+#: admin/templates/meta-box-load-more.php:49
+msgid "Color"
+msgstr "Farbe"
+
+# @ asg
+#: admin/templates/meta-box-image-section-border.php:10
+#: admin/templates/meta-box-image-section-shadow.php:18
+msgid "Radius"
+msgstr "Radius"
+
+# @ asg
+#: admin/templates/meta-box-image-section-border.php:15
+msgid "Second width"
+msgstr "Zweite Breite"
+
+# @ asg
+#: admin/templates/meta-box-image-section-border.php:19
+msgid "Second color"
+msgstr "Zweite Farbe"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:5
+#: admin/templates/meta-box-image-section-shadow.php:2
+#: admin/templates/meta-box-layout.php:32
+msgid "Show"
+msgstr "Zeige"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:7
+#: admin/templates/meta-box-image-section-caption.php:71
+#: admin/templates/meta-box-image-section-effects.php:5
+#: admin/templates/meta-box-image-section-effects.php:19
+#: admin/templates/meta-box-image-section-overlay.php:4
+msgid "Off"
+msgstr "Aus"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:8
+#: admin/templates/meta-box-image-section-effects.php:8
+#: admin/templates/meta-box-image-section-effects.php:21
+#: admin/templates/meta-box-image-section-overlay.php:5
+msgid "On-hover"
+msgstr "Beim Hover (Start)"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:9
+#: admin/templates/meta-box-image-section-effects.php:11
+#: admin/templates/meta-box-image-section-effects.php:23
+#: admin/templates/meta-box-image-section-overlay.php:6
+msgid "Off-hover"
+msgstr "Bei Hover (Ende)"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:10
+#: admin/templates/meta-box-image-section-overlay.php:7
+msgid "Constantly on"
+msgstr "Immer an"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:19
+msgid "Secondary color"
+msgstr "Sekundäre Farbe"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:23
+#: admin/templates/meta-box-load-more.php:39
+msgid "Background color"
+msgstr "Hintergrundfabre"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:27
+#: admin/templates/meta-box-image-section-shadow.php:22
+msgid "Opacity"
+msgstr "Deckkraft"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:31
+msgid "Position"
+msgstr "Position"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:33
+msgid "Fill"
+msgstr "Füllen"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:34
+msgid "Bottom"
+msgstr "Unten"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:39
+msgid "Caption 1 font"
+msgstr "Beschreibung 1 Schriftart"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:49
+msgid "Caption 2 font"
+msgstr "Beschreibung 2 Schriftart"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:69
+msgid "Effect"
+msgstr "Effekt"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:72
+#: admin/templates/meta-box-image-section-overlay.php:22
+msgid "Fade"
+msgstr "Einblenden"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:73
+#: admin/templates/meta-box-image-section-overlay.php:23
+msgid "Slide"
+msgstr "Slide"
+
+# @ asg
+#: admin/templates/meta-box-image-section-caption.php:74
+msgid "Zoom in"
+msgstr "Zoom in"
+
+# @ asg
+#: admin/templates/meta-box-image-section-effects.php:2
+msgid "Image blur"
+msgstr "Bildunschärfe"
+
+# @ asg
+#: admin/templates/meta-box-image-section-effects.php:14
+#: admin/templates/meta-box-image-section-effects.php:26
+msgid "Excluding IE10"
+msgstr "IE10 ausschließen"
+
+# @ asg
+#: admin/templates/meta-box-image-section-effects.php:17
+msgid "Black & white"
+msgstr "Schwarz & Weiß"
+
+# @ asg
+#: admin/templates/meta-box-image-section-effects.php:20
+msgid "On"
+msgstr "Ein"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:2
+msgid "Overlay type"
+msgstr "Overlay Typ"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:11
+msgid "Overlay color"
+msgstr "Overlay Farbe"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:15
+msgid "Overlay opacity"
+msgstr "Overlay Deckkraft"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:19
+msgid "Overlay effect"
+msgstr "Overlay Effekt"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:21 presets.php:12
+#: sources/500px/template.php:125 sources/500px/template.php:139
+#: sources/500px/template.php:163 sources/500px/template.php:178
+#: sources/facebook/template.php:89 sources/facebook/template.php:98
+#: sources/facebook/template.php:117 sources/facebook/template.php:127
+#: sources/flickr/template.php:62 sources/flickr/template.php:72
+#: sources/flickr/template.php:92 sources/flickr/template.php:103
+#: sources/instagram/template.php:73 sources/instagram/template.php:82
+#: sources/instagram/template.php:101 sources/instagram/template.php:110
+#: sources/nextgen/template.php:44 sources/nextgen/template.php:56
+#: sources/nextgen/template.php:79 sources/nextgen/template.php:92
+#: sources/posts/template.php:20 sources/posts/template.php:99
+#: sources/posts/template.php:114 sources/posts/template.php:139
+#: sources/posts/template.php:154 sources/rss/template.php:20
+#: sources/rss/template.php:30 sources/rss/template.php:50
+#: sources/rss/template.php:61
+msgid "None"
+msgstr "Keins"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:28
+msgid "Overlay image"
+msgstr "Overlay Bild"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:36
+#: sources/manual/image.php:20 sources/manual/image.php:61
+msgid "Select image"
+msgstr "Wähle Bild"
+
+# @ asg
+#: admin/templates/meta-box-image-section-overlay.php:38
+#: sources/manual/image.php:22 sources/manual/image.php:63
+msgid "Remove image"
+msgstr "Entferne Bild"
+
+# @ asg
+#: admin/templates/meta-box-image-section-shadow.php:5
+msgid "Do not show"
+msgstr "Nicht anzeigen"
+
+# @ asg
+#: admin/templates/meta-box-image-section-shadow.php:8
+msgid "Show all the time"
+msgstr "Die ganze Zeit anzeigen"
+
+# @ asg
+#: admin/templates/meta-box-image-section-shadow.php:11
+msgid "Show on hover"
+msgstr "Zeige beim 'Hover'"
+
+# @ asg
+#: admin/templates/meta-box-image-section-shadow.php:14
+msgid "Hide on hover"
+msgstr "Verstecke beim 'Hover'"
+
+# @ asg
+#: admin/templates/meta-box-image.php:2
+msgid "Caption"
+msgstr "Beschreibung"
+
+# @ asg
+#: admin/templates/meta-box-image.php:3
+msgid "Border"
+msgstr "Rahmen"
+
+# @ asg
+#: admin/templates/meta-box-image.php:4
+msgid "Shadow"
+msgstr "Schatten"
+
+# @ asg
+#: admin/templates/meta-box-image.php:5
+msgid "Effects"
+msgstr "Effekte"
+
+# @ asg
+#: admin/templates/meta-box-image.php:6
+msgid "Overlay"
+msgstr "Overlay"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:2
+msgid "Layout mode"
+msgstr "Layout Modus"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:4
+msgid "Horizontal flow"
+msgstr "horizontaler Fluss"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:5
+msgid "Vertical flow"
+msgstr "vertikakler Fluss"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:6
+msgid "Grid"
+msgstr "Grid"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:10
+msgid "Image width"
+msgstr "Bildbreite"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:14
+msgid "Image height"
+msgstr "Bildhöhe"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:18
+msgid "Gap"
+msgstr "Spalte"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:22
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:30
+msgid "Hanging images"
+msgstr "Hängende Bilder"
+
+# @ asg
+#: admin/templates/meta-box-layout.php:33
+msgid "Hide"
+msgstr "Verstecken"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:2
+msgid "Load more style"
+msgstr "Mehr Styles laden"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:4
+msgid "Disable. Only load the first page"
+msgstr "Deaktivieren. Lade nur die erste Seite"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:5
+msgid "Load more button"
+msgstr "'Mehr Laden' Button"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:10
+msgid "Images per page"
+msgstr "Bilder pro Seite"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:15
+msgid "Load more button text"
+msgstr "'Mehr Laden' Button Text"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:19
+msgid "Loading text"
+msgstr "'Lädt' Text"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:23
+msgid "All items loaded"
+msgstr "Alle Artikel geladen"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:28
+msgid "Load more width"
+msgstr "'Mehr Laden' Breite"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:31
+msgid "Full width"
+msgstr "Volle Breite"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:34
+msgid "Button"
+msgstr "Button"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:44
+msgid "Background color when all images are loaded"
+msgstr "Hintergrundfarbe, wenn alle Bilder geladen sind"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:54
+msgid "Color when all images are loaded"
+msgstr "Farbe, wenn alle Bilder geladen sind"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:59
+msgid "Shadow width"
+msgstr "Schattenbreite"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:64
+msgid "Shadow color"
+msgstr "Schattenfarbe"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:69
+msgid "Border radius"
+msgstr "Rahmenradius"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:74
+msgid "Horizontal padding"
+msgstr "Horizontaler Abstand (Padding)"
+
+# @ asg
+#: admin/templates/meta-box-load-more.php:79
+msgid "Vertical padding"
+msgstr "Vertikaler Abstand (Padding)"
+
+# @ asg
+#: admin/templates/meta-box-presets.php:2
+msgid "Load preset:"
+msgstr "Lade Voreinstellung:"
+
+# @ asg
+#: admin/templates/meta-box-presets.php:10
+msgid "Load the preset"
+msgstr "Lade die Voreinstellung"
+
+# @ asg
+#: admin/templates/meta-box-publish.php:5 sources/500px/template.php:120
+#: sources/facebook/template.php:84 sources/flickr/template.php:57
+#: sources/nextgen/template.php:38 sources/posts/template.php:93
+#: sources/rss/template.php:15
+msgid "Preview"
+msgstr "Vorschau"
+
+# @ asg
+#: admin/templates/meta-box-publish.php:6
+msgid "Create a copy"
+msgstr "Erstelle eine Kopie"
+
+# @ default
+#: admin/templates/meta-box-publish.php:17
+msgid "Delete Permanently"
+msgstr "Unwiderruflich löschen"
+
+# @ default
+#: admin/templates/meta-box-publish.php:19
+msgid "Move to Trash"
+msgstr "In Papierkorb schieben"
+
+# @ default
+#: admin/templates/meta-box-publish.php:27
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+# @ uber-grid
+#: admin/templates/meta-box-publish.php:28
+msgid "Create"
+msgstr "Erstellen"
+
+# @ default
+#: admin/templates/meta-box-publish.php:30
+msgid "Update"
+msgstr "Aktualisieren"
+
+# @ uber-grid
+#: admin/templates/meta-box-publish.php:31
+msgid "Save"
+msgstr "Speichern"
+
+# @ asg
+#: admin/templates/meta-box-style.php:2
+msgid "Style"
+msgstr "Style"
+
+# @ asg
+#: admin/templates/meta-box-style.php:6
+msgid "Use builder"
+msgstr "Benutze den Builder"
+
+# @ asg
+#: admin/templates/support-sent.php:6
+msgid ""
+"It will take from a few hours to a couple of days to answer it, please be "
+"patient."
+msgstr ""
+"Es kann von ein paar Stunden bis zu ein paar Tagen dauern bis Sie eine "
+"Antwort erhalten. Haben Sie bitte Geduld."
+
+# @ namespace
+#: admin/templates/support.php:3
+msgid "Awesome Gallery diagnostics & support"
+msgstr "Awesome Gallery Diagnostik & Support"
+
+# @ namespace
+#: admin/templates/support.php:5
+msgid ""
+"You can send a support request from this screen directly. It is the best way "
+"to ask for support,\n"
+"\t\tbecause along with your description, an additional system information "
+"will be sent making it easier to help you.\n"
+"\t\tSupport requests are usually answered within a day, with infrequent "
+"delays up to a couple of days\n"
+"\t\t when I am away or busy with developing new cool stuff."
+msgstr ""
+"Sie können direkt von hier aus einen Suppertanfrage senden. Dies ist der "
+"beste Weg um um Support zu bitten,\n"
+"\t\tweil neben Ihrer Beschreibung zusätzliche Systeminformationen, welche "
+"uns bei der Fehlerbehebung helfen, mitgesandt werden.\n"
+"\t\tSupport Anfragen werden gewöhnlich innerhalb eines Tages, oder manchmal "
+"in ein paar Tagen, beantwortet,\n"
+"\t\t wenn ich beschäftigt bin oder an neuen coolen Sachen arbeite."
+
+# @ namespace
+#: admin/templates/support.php:16
+msgid "Your email"
+msgstr "Ihre E-Mail"
+
+# @ namespace
+#: admin/templates/support.php:23
+msgid "An answer will be sent to this email"
+msgstr "Eine Antwort wird an diese E-Mail gesendet"
+
+# @ namespace
+#: admin/templates/support.php:27
+msgid "Your question"
+msgstr "Ihre Frage"
+
+# @ namespace
+#: admin/templates/support.php:32
+msgid ""
+"Your question here. Including specific steps to reproduce the issue usually "
+"helps to resolve the question much faster."
+msgstr ""
+"Ihre Frage hier. Geben Sie spezifische Schritte an, welche uns helfen den "
+"Fehler zu reproduzieren um den Fehler schneller zu beheben. Autor spricht "
+"nur Englisch! [Übersetzer Hinweis]"
+
+# @ namespace
+#: admin/templates/support.php:38
+msgid "Gallery URL"
+msgstr "Galerie URL"
+
+# @ namespace
+#: admin/templates/support.php:45
+msgid "Your gallery URL"
+msgstr "Ihr Galerie URL"
+
+# @ namespace
+#: admin/templates/support.php:49
+msgid "Provide an admin access"
+msgstr "Stellen Sie einen Admin Zugriff zur Verfügung"
+
+# @ namespace
+#: admin/templates/support.php:51
+msgid "Create a temporary admin account"
+msgstr "Erstellen Sie einen temporären Admin Account"
+
+# @ namespace
+#: admin/templates/support.php:53
+msgid ""
+"Provide me an admin access to your site. It allows me to help you on the fly "
+"without asking too many questions about details and is used really "
+"carefully. I respect my clients and their privacy - it is the only way of "
+"building a good long term business. A new admin account will be created, and "
+"the password used for this account will be strong and unique for your site."
+msgstr ""
+"Stellen Sie mir einen Admin Zugriff für Ihre Seite zur Verfügung. Dies "
+"erlaubt es mir Ihnen direkt von mir aus zu helfen, ohne Sie mit Fragen über "
+"Details zu löchern. Ich respektiere meine Kunden und deren Privatsphäre! Es "
+"ist der einzige Weg ein Langzeitgeschäft aufzubauen. Ein neuer Admin Account "
+"wird erstellt, und das Passwort wird stark und einzigartig für Ihre Seite."
+
+# @ namespace
+#: admin/templates/support.php:57
+msgid "Submit the request"
+msgstr "Anfrage absenden"
+
+# @ namespace
+#: admin/templates/support.php:64
+msgid "This data will be sent along with your support request"
+msgstr "Diese Daten werden an Ihre Support-Anfrage angeheftet"
+
+# @ namespace
+#: admin/templates/support.php:67
+msgid "Environment"
+msgstr "Umgebung"
+
+# @ namespace
+#: admin/templates/support.php:72
+msgid "name"
+msgstr "Name"
+
+# @ namespace
+#: admin/templates/support.php:96
+msgid "Plugins"
+msgstr "Plugins"
+
+# @ namespace
+#: admin/templates/support.php:110
+msgid "Theme"
+msgstr "Theme"
+
+# @ namespace
+#: admin/templates/support.php:116
+msgid "Theme "
+msgstr "Theme "
+
+# @ default
+#: admin/updater.class.php:41
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Ein unerwarteter  HTTP Fehler ist aufgetreten, während der API Abfrage.</p> "
+"<p><a href=\"?\" onclick=\"document.location.reload(); return false;"
+"\">Versuche es erneut</a>"
+
+# @ default
+#: admin/updater.class.php:45
+msgid "An unknown error occurred"
+msgstr "Ein unbekannter Fehler ist aufgetreten"
+
+# @ asg
+#: functions.php:134
+msgid "Plus"
+msgstr "Plus"
+
+# @ asg
+#: functions.php:195
+msgid "All"
+msgstr "Alle"
+
+# @ asg
+#: functions.php:245
+msgid "Loading..."
+msgstr "Lädt..."
+
+# @ asg
+#: functions.php:246
+msgid "Load more"
+msgstr "Weitere laden"
+
+# @ asg
+#: functions.php:247
+msgid "All images loaded"
+msgstr "Alle Bilder geladen"
+
+# @ asg
+#: functions.php:284 sources/manual/image.php:8
+msgid "Image"
+msgstr "Bild"
+
+# @ asg
+#: functions.php:286
+msgid "Image custom CSS"
+msgstr "Benutzerdefinierter CSS für Bilder"
+
+# @ asg
+#: functions.php:290
+msgid "On-hover custom CSS"
+msgstr "Benutzerdefinierter CSS für Hover (Start)"
+
+# @ asg
+#: functions.php:294 sources/instagram/template.php:72
+#: sources/instagram/template.php:81 sources/instagram/template.php:100
+#: sources/instagram/template.php:109
+msgid "Image caption"
+msgstr "Bildbeschreibung"
+
+# @ asg
+#: functions.php:296
+msgid "Whole caption custom CSS properties"
+msgstr "Komplette Beschreibung benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:300
+msgid "On-hover custom CSS properties"
+msgstr "Hover (Start) benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:304
+msgid "Caption line 1 custom CSS properties"
+msgstr "Beschreibungszeile 1 benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:308
+msgid "Caption line 1 on-hover custom CSS properties"
+msgstr ""
+"Beschreibungszeile 1 Hover (Start) benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:312
+msgid "Caption line 2 custom CSS properties"
+msgstr "Beschreibungszeile 2 benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:316
+msgid "Caption line 2 on-hover custom CSS properties"
+msgstr ""
+"Beschreibungszeile 2 Hover (Start) benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:322
+msgid "Filters wrapper custom CSS properties"
+msgstr "Filter Umhüllung benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:326
+msgid "Filter item custom CSS"
+msgstr "Einzelner Filter benutzerdefinierte CSS"
+
+# @ asg
+#: functions.php:330
+msgid "Filter item on-hover custom CSS properties"
+msgstr "Einzelner Filter beim Hover benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:334
+msgid "Load More"
+msgstr "Weitere laden"
+
+# @ asg
+#: functions.php:336
+msgid "Wrapper custom CSS properties"
+msgstr "Umhüllung (Wrapper) benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:340
+msgid "Button custom CSS properties"
+msgstr "Button benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: functions.php:344
+msgid "Button on-hover custom CSS properties"
+msgstr "Button beim Hover benutzerdefinierte CSS Eigenschaften"
+
+# @ asg
+#: gallery.class.php:81 integration.php:18
+msgid "Edit gallery"
+msgstr "Galerie bearbeiten"
+
+# @ asg
+#: gallery.class.php:83
+msgid "Images not showing?"
+msgstr "Werden Bilder nicht angezeigt?"
+
+# @ asg
+#: gallery.class.php:91
+msgid "Can't display images:"
+msgstr "Kann Bilder nicht anzeigen:"
+
+# @ asg
+#: integration.php:16 integration.php:17
+msgid "Add new gallery"
+msgstr "Neue Galerie hinzufügen"
+
+# @ asg
+#: integration.php:19
+msgid "Search gallery"
+msgstr "Galerien durchsuchen"
+
+# @ asg
+#: integration.php:20
+msgid "No galleries yet"
+msgstr "Keine Galerien vorhanden"
+
+# @ asg
+#: presets.php:18
+msgid "Flickr style"
+msgstr "Flickr Style"
+
+# @ asg
+#: presets.php:33
+msgid "500px style"
+msgstr "500pxStyle"
+
+# @ asg
+#: presets.php:48
+msgid "B&W"
+msgstr "B&W"
+
+# @ asg
+#: presets.php:62
+msgid "B&W Faded"
+msgstr "B&W verblasst"
+
+# @ asg
+#: presets.php:73
+msgid "Hover lighten"
+msgstr "Hover aufhellen"
+
+# @ asg
+#: presets.php:87
+msgid "Hover blur"
+msgstr "Hover verwischen"
+
+# @ asg
+#: presets.php:102
+msgid "Vertical minimalism"
+msgstr "Vertikales Minimum"
+
+# @ asg
+#: presets.php:111
+msgid "Vertical minimalism 2"
+msgstr "Vertikales Minimum 2"
+
+# @ asg
+#: shortcodes.php:31 sources/posts/template.php:102
+#: sources/posts/template.php:117 sources/posts/template.php:142
+#: sources/posts/template.php:157
+msgid "Content"
+msgstr "Inhalt"
+
+# @ default
+#: shortcodes.php:39
+msgid "Text"
+msgstr "Text"
+
+# @ asg
+#: shortcodes.php:42
+msgid "Please enter gallery ID here."
+msgstr "Bitte geben Sie die Galerie ID hier ein."
+
+# @ asg
+#: shortcodes.php:51
+msgid "Please add an \"id\" attribute to the Awesome Gallery shortcode"
+msgstr "Bitte fügen Sie eine \"id\" zu dem Awesome Gallery Shortcode hinzu"
+
+# @ asg
+#: source.class.php:181
+#, php-format
+msgid ""
+"data unavailable for the gallery built. A cached copy of data is still shown "
+"to site visitors,\n"
+"\t\tbut it is not refreshed. It is recommended to receive a new access token "
+"by clicking \"Authorize\" at the\n"
+"\t\tgallery editor page %s"
+msgstr ""
+"Daten für den Galeriebau sind nicht erreichbar. Eine gecachte Kopie der "
+"Daten wird den Seitenbesuchern immer noch angezeigt,\n"
+"\t\taber es ist nicht aktualisiert. Es ist empfohlen einen neuen 'Access "
+"Token' durch das Klicken von \"Authorize\" auf der\n"
+"\t\tGalerie Editorseite %s zu erhalten."
+
+# @ asg
+#: source.class.php:186
+msgid "gallery data unavailable"
+msgstr "Galeriedaten nicht erreichbar"
+
+# @ asg
+#: sources/500px/auth-success.php:3
+msgid "500px access granted"
+msgstr "500px Zugriff genehmigt"
+
+# @ asg
+#: sources/500px/auth-success.php:4
+msgid "Please copy these access tokens to the gallery page:"
+msgstr "Bitte kopieren Sie diesen 'Access Token' auf die Galerie Seite:"
+
+# @ asg
+#: sources/500px/auth-success.php:13 sources/instagram/auth-failure.php:13
+#: sources/instagram/auth-success.php:8
+msgid "Close this tab"
+msgstr "Schließe diesen Tab"
+
+# @ asg
+#: sources/500px/editor.class.php:19
+msgid "500px Authorization"
+msgstr "500px Genehmigung"
+
+# @ asg
+#: sources/500px/editor.class.php:25
+msgid "Token is OK"
+msgstr "Token ist OK"
+
+# @ asg
+#: sources/500px/editor.class.php:27
+msgid "The token is invalid"
+msgstr "Token ist ungültig"
+
+# @ asg
+#: sources/500px/editor.class.php:34 sources/flickr/editor.class.php:37
+msgid "Keys are OK"
+msgstr "Schlüssel sind OK"
+
+# @ asg
+#: sources/500px/editor.class.php:36
+msgid "Keys are invalid"
+msgstr "Schlüssel sind ungültig"
+
+# @ asg
+#: sources/500px/source.class.php:8 sources/500px/template.php:70
+msgid "Everything"
+msgstr "Alles"
+
+# @ asg
+#: sources/500px/source.class.php:9 sources/500px/template.php:71
+msgid "Uncategorized"
+msgstr "Unkategorisiert"
+
+# @ asg
+#: sources/500px/source.class.php:10 sources/500px/template.php:72
+msgid "Abstract"
+msgstr "Abstrakt"
+
+# @ asg
+#: sources/500px/source.class.php:11 sources/500px/template.php:73
+msgid "Animals"
+msgstr "Tiere"
+
+# @ asg
+#: sources/500px/source.class.php:12 sources/500px/template.php:74
+msgid "Black and White"
+msgstr "Schwarz und Weiß"
+
+# @ asg
+#: sources/500px/source.class.php:13 sources/500px/template.php:75
+msgid "Celebrities"
+msgstr "Berühmtheiten"
+
+# @ asg
+#: sources/500px/source.class.php:14 sources/500px/template.php:76
+msgid "City and Architecture"
+msgstr "Stadt und Architektur"
+
+# @ asg
+#: sources/500px/source.class.php:15 sources/500px/template.php:77
+msgid "Commercial"
+msgstr "Geschäftlich"
+
+# @ asg
+#: sources/500px/source.class.php:16 sources/500px/template.php:78
+msgid "Concert"
+msgstr "Konzert"
+
+# @ asg
+#: sources/500px/source.class.php:17 sources/500px/template.php:79
+msgid "Family"
+msgstr "Familie"
+
+# @ asg
+#: sources/500px/source.class.php:18 sources/500px/template.php:80
+msgid "Fashion"
+msgstr "Mode"
+
+# @ asg
+#: sources/500px/source.class.php:19 sources/500px/template.php:81
+msgid "Film"
+msgstr "Film"
+
+# @ asg
+#: sources/500px/source.class.php:20 sources/500px/template.php:82
+msgid "Fine Art"
+msgstr "Kunst"
+
+# @ asg
+#: sources/500px/source.class.php:21 sources/500px/template.php:83
+msgid "Food"
+msgstr "Essen"
+
+# @ asg
+#: sources/500px/source.class.php:22 sources/500px/template.php:84
+msgid "Journalism"
+msgstr "Journalismus"
+
+# @ asg
+#: sources/500px/source.class.php:23 sources/500px/template.php:85
+msgid "Landscapes"
+msgstr "Landschaften"
+
+# @ asg
+#: sources/500px/source.class.php:24 sources/500px/template.php:86
+msgid "Macro"
+msgstr "Makro"
+
+# @ asg
+#: sources/500px/source.class.php:25 sources/500px/template.php:87
+msgid "Nature"
+msgstr "Natur"
+
+# @ asg
+#: sources/500px/source.class.php:26 sources/500px/template.php:88
+msgid "Nude"
+msgstr "Nackt"
+
+# @ asg
+#: sources/500px/source.class.php:27 sources/500px/template.php:89
+msgid "People"
+msgstr "Leute"
+
+# @ asg
+#: sources/500px/source.class.php:28 sources/500px/template.php:90
+msgid "Performing Arts"
+msgstr "Darstellende Kunst"
+
+# @ asg
+#: sources/500px/source.class.php:29 sources/500px/template.php:91
+msgid "Sport"
+msgstr "Sport"
+
+# @ asg
+#: sources/500px/source.class.php:30 sources/500px/template.php:92
+msgid "Still life"
+msgstr "Stillleben"
+
+# @ asg
+#: sources/500px/source.class.php:31 sources/500px/template.php:93
+msgid "Street"
+msgstr "Straße"
+
+# @ asg
+#: sources/500px/source.class.php:32 sources/500px/template.php:94
+msgid "Transportation"
+msgstr "Transport"
+
+# @ asg
+#: sources/500px/source.class.php:33 sources/500px/template.php:95
+msgid "Travel"
+msgstr "Reisen"
+
+# @ asg
+#: sources/500px/source.class.php:34 sources/500px/template.php:96
+msgid "Underwater"
+msgstr "Unterwasser"
+
+# @ asg
+#: sources/500px/source.class.php:35 sources/500px/source.class.php:37
+#: sources/500px/template.php:97
+msgid "Urban Exploration"
+msgstr "Urban Exploration"
+
+# @ asg
+#: sources/500px/source.class.php:36 sources/500px/template.php:98
+msgid "Wedding"
+msgstr "Hochzeit"
+
+# @ asg)
+#: sources/500px/source.class.php:130
+msgid "Error fetching collections"
+msgstr "Fehler beim Laden der Kollektionen"
+
+# @ asg
+#: sources/500px/template.php:4
+msgid "Sign in to 500px"
+msgstr "Loggen Sie sich bei 500px.com ein"
+
+# @ asg
+#: sources/500px/template.php:8
+msgid "Register an application"
+msgstr "Registriere eine Applikation"
+
+# @ asg
+#: sources/500px/template.php:10
+msgid "Click \"register your application\" button and fill the form."
+msgstr ""
+"Klicke den \"register your application\" Button und füllen Sie die benötigen "
+"Felder aus."
+
+# @ asg
+# @ default
+#: sources/500px/template.php:13 sources/facebook/template.php:16
+#: sources/flickr/template.php:12 sources/instagram/template.php:18
+msgid "Open Application list"
+msgstr "Öffne Applikationsliste"
+
+# @ asg
+#: sources/500px/template.php:25 sources/flickr/template.php:24
+msgid "Check keys"
+msgstr "Prüfe Schlüssel"
+
+# @ asg
+#: sources/500px/template.php:33
+msgid "Popular"
+msgstr "Beliebt"
+
+# @ asg
+#: sources/500px/template.php:34
+msgid "Upcoming"
+msgstr "Bevorstehend"
+
+# @ asg
+#: sources/500px/template.php:35
+msgid "Editor's"
+msgstr "Herausgeber's"
+
+# @ asg
+#: sources/500px/template.php:36
+msgid "Fresh today"
+msgstr "Neu von Heute"
+
+# @ asg
+#: sources/500px/template.php:37
+msgid "Fresh yesterday"
+msgstr "Neu von Gestern"
+
+# @ asg
+#: sources/500px/template.php:38
+msgid "Fresh week"
+msgstr "Neue diese Woche"
+
+# @ asg
+#: sources/500px/template.php:39
+msgid "User's photos"
+msgstr "Benutzers Fotos"
+
+# @ asg
+#: sources/500px/template.php:40
+msgid "User's friend's photos"
+msgstr "Benutzers Freunde Fotos"
+
+# @ asg
+#: sources/500px/template.php:41 sources/flickr/template.php:43
+msgid "User's favorites"
+msgstr "Benutzers Favoriten"
+
+# @ asg
+#: sources/500px/template.php:42
+msgid "User's collection"
+msgstr "Benutzers Kollektionen"
+
+# @ asg
+# @ default
+#: sources/500px/template.php:51 sources/facebook/template.php:38
+msgid "ACCESS TOKEN"
+msgstr "ACCESS TOKEN"
+
+# @ asg
+#: sources/500px/template.php:53
+msgid "Receive a token"
+msgstr "Erhalte einen Token"
+
+# @ asg
+#: sources/500px/template.php:56
+msgid "ACCESS TOKEN SECRET"
+msgstr "ACCESS TOKEN SECRET"
+
+# @ asg
+#: sources/500px/template.php:58
+msgid "Check the tokens"
+msgstr "Überprüfe die Tokens"
+
+# @ asg
+#: sources/500px/template.php:61
+msgid "Select a collection"
+msgstr "Wähle eine Sammlung"
+
+# @ asg
+#: sources/500px/template.php:108
+msgid "No sorting"
+msgstr "Keine Sortierung"
+
+# @ asg
+#: sources/500px/template.php:109
+msgid "Creation date"
+msgstr "Erstellungsdatum"
+
+# @ asg
+#: sources/500px/template.php:110 sources/500px/template.php:129
+#: sources/500px/template.php:143 sources/500px/template.php:167
+#: sources/500px/template.php:182
+msgid "Rating"
+msgstr "Bewertung"
+
+# @ asg
+#: sources/500px/template.php:111 sources/500px/template.php:128
+#: sources/500px/template.php:130 sources/500px/template.php:142
+#: sources/500px/template.php:144 sources/500px/template.php:166
+#: sources/500px/template.php:168 sources/500px/template.php:181
+#: sources/500px/template.php:183 sources/flickr/template.php:67
+#: sources/flickr/template.php:77 sources/flickr/template.php:97
+#: sources/flickr/template.php:108
+msgid "Views"
+msgstr "Seitenaufrufe"
+
+# @ asg
+#: sources/500px/template.php:112
+msgid "Votes"
+msgstr "Stimmen"
+
+# @ asg
+#: sources/500px/template.php:113 sources/500px/template.php:131
+#: sources/500px/template.php:145 sources/500px/template.php:169
+#: sources/500px/template.php:184
+msgid "Favorited"
+msgstr "Favorisiert"
+
+# @ asg
+#: sources/500px/template.php:114
+msgid "Comments count"
+msgstr "Kommantanzahl"
+
+# @ asg
+#: sources/500px/template.php:115
+msgid "Taken at"
+msgstr "Aufgenommen am"
+
+# @ asg
+#: sources/500px/template.php:122 sources/facebook/template.php:86
+#: sources/flickr/template.php:59 sources/nextgen/template.php:40
+#: sources/posts/template.php:95 sources/rss/template.php:17
+msgid "Adjust settings"
+msgstr "Einstellungen justieren"
+
+# @ asg
+#: sources/500px/template.php:126 sources/500px/template.php:140
+#: sources/500px/template.php:164 sources/500px/template.php:179
+#: sources/facebook/template.php:91 sources/facebook/template.php:100
+#: sources/posts/template.php:20
+msgid "Name"
+msgstr "Name"
+
+# @ asg
+#: sources/500px/template.php:127 sources/500px/template.php:141
+#: sources/500px/template.php:165 sources/500px/template.php:180
+#: sources/flickr/template.php:64 sources/flickr/template.php:74
+#: sources/flickr/template.php:94 sources/flickr/template.php:105
+#: sources/manual/image.php:33 sources/manual/image.php:74
+#: sources/nextgen/template.php:21 sources/rss/template.php:24
+#: sources/rss/template.php:34 sources/rss/template.php:54
+#: sources/rss/template.php:65
+msgid "Description"
+msgstr "Beschreibung"
+
+# @ asg
+#: sources/500px/template.php:132 sources/500px/template.php:146
+#: sources/500px/template.php:170 sources/500px/template.php:185
+msgid "Comments"
+msgstr "Kommentare"
+
+# @ asg
+#: sources/500px/template.php:133 sources/500px/template.php:147
+#: sources/500px/template.php:171 sources/500px/template.php:186
+msgid "Username"
+msgstr "Benutzername"
+
+# @ asg
+#: sources/500px/template.php:134 sources/500px/template.php:148
+#: sources/500px/template.php:172 sources/500px/template.php:187
+msgid "User full name"
+msgstr "Voller Name des Nutzers"
+
+# @ asg
+#: sources/500px/template.php:151 sources/facebook/template.php:105
+#: sources/flickr/template.php:80 sources/instagram/template.php:86
+#: sources/manual/template.php:2 sources/nextgen/template.php:67
+#: sources/posts/template.php:127 sources/rss/template.php:38
+msgid "LINK MODE"
+msgstr "LINK MODUS"
+
+# @ asg
+#: sources/500px/template.php:153 sources/facebook/template.php:107
+#: sources/flickr/template.php:82 sources/instagram/template.php:88
+#: sources/manual/template.php:4
+msgid "Link to lightbox"
+msgstr "Link zur lightbox"
+
+# @ asg
+#: sources/500px/template.php:154
+msgid "Link to 500px.com (same window)"
+msgstr "Link zu 500px.com (selbes Fenster)"
+
+# @ asg
+#: sources/500px/template.php:155
+msgid "Link to 500px.com (new window)"
+msgstr "Link zu 500px.com (neues Fenster)"
+
+# @ asg
+#: sources/500px/template.php:156 sources/facebook/template.php:110
+#: sources/flickr/template.php:85 sources/instagram/template.php:91
+#: sources/manual/template.php:7 sources/nextgen/template.php:72
+#: sources/posts/template.php:132 sources/rss/template.php:43
+msgid "No link"
+msgstr "Kein Link"
+
+# @ asg
+#: sources/500px/template.php:161 sources/facebook/template.php:115
+#: sources/flickr/template.php:90 sources/instagram/template.php:96
+#: sources/nextgen/template.php:77 sources/posts/template.php:137
+#: sources/rss/template.php:48
+msgid "LIGHTBOX TITLE LINE 1"
+msgstr "LIGHTBOX TITLE ZEILE 1"
+
+# @ asg
+#: sources/500px/template.php:176 sources/facebook/template.php:125
+#: sources/flickr/template.php:101 sources/instagram/template.php:105
+#: sources/nextgen/template.php:90 sources/posts/template.php:152
+#: sources/rss/template.php:59
+msgid "LIGHTBOX TITLE LINE 2"
+msgstr "LIGHTBOX TITLE ZEILE 2"
+
+# @ asg
+#: sources/facebook/editor.class.php:79
+msgid "Token is valid"
+msgstr "Token ist gültig"
+
+# @ asg
+#: sources/facebook/editor.class.php:81
+msgid "Token is invalid"
+msgstr "Token ist ungültig"
+
+# @ asg
+#: sources/facebook/editor.class.php:102
+msgid "Error: "
+msgstr "Fehler: "
+
+# @ asg
+#: sources/facebook/editor.class.php:106
+msgid "User / page valid"
+msgstr "Nutzer / Seite gültig"
+
+# @ asg
+#: sources/facebook/source.class.php:5
+msgid "facebook"
+msgstr "Facebook"
+
+# @ asg
+#: sources/facebook/source.class.php:20
+msgid "Invalid keys"
+msgstr "Ungültige Schlüssel"
+
+# @ asg
+#: sources/facebook/source.class.php:45
+msgid "Please enter user or page name"
+msgstr "Bitte geben Sie Ihren Nutzer- oder Seitenname an"
+
+# @ asg
+#: sources/facebook/template.php:4
+msgid "Sign in to Facebook"
+msgstr "Einloggen in Facebook"
+
+# @ asg
+#: sources/facebook/template.php:8
+msgid "Create a Facebook app"
+msgstr "Erstelle eine Facebook App"
+
+# @ asg
+#: sources/facebook/template.php:10
+msgid "Click \"Create App\" button and follow Facebook instructions."
+msgstr ""
+"Klicke den \"Create App\" Button und folgen Sie den Anweisungen von Facebook."
+
+# @ asg
+#: sources/facebook/template.php:27
+msgid "Open Application settings"
+msgstr "Öffne Applikationseinstellungen"
+
+# @ asg
+#: sources/facebook/template.php:35
+msgid "Authenticate"
+msgstr "Authentifizieren"
+
+# @ asg
+#: sources/facebook/template.php:37
+msgid ""
+"Please log in to Facebook using the account that owns the album you want to "
+"use first or use the public albums."
+msgstr ""
+"Bitte loggen Sie sich mit dem Account in Facebook ein, welcher das Album "
+"besitzt welches Sie als erstes nutzen wollen oder die öffentlichen Alben."
+
+# @ default
+#: sources/facebook/template.php:40
+msgid "TOKEN EXPIRES"
+msgstr "TOKEN LÄUFT AB"
+
+# @ asg
+#: sources/facebook/template.php:44
+msgid ""
+"You can copy this URL and set it to your friend to get an access to his "
+"photos. He will need to copy the auth token and user ID received"
+msgstr ""
+"Sie können diesen URL kopieren und an Ihren Freund weitergeben. Dieser "
+"erhält dann Zugriff auf seine Fotos. Er muss die erhaltene 'Auth Token' und "
+"User ID kopieren."
+
+# @ asg
+#: sources/facebook/template.php:49
+msgid "Check access token"
+msgstr "Prüfe 'Access Token'"
+
+# @ asg
+#: sources/facebook/template.php:56 sources/flickr/template.php:31
+msgid "Check user"
+msgstr "Prüfe Nutzer"
+
+# @ asg
+#: sources/facebook/template.php:61
+msgid ""
+"Please note that this ID is not your username or Facebook page URL. Use \"me"
+"\" or page / user id received from your friend at the previous step."
+msgstr ""
+"Bitte beachten Sie, dass diese ID nicht Ihr Benutzername noch ihre Facebook "
+"Seiten URL ist. Nutze  \"me\" oder Seiten / Nutzer ID, welche Sie im "
+"vorherigen Schritt von Ihrem Freund erhalten haben."
+
+# @ asg
+#: sources/facebook/template.php:64 sources/flickr/template.php:38
+msgid "Preview the result"
+msgstr "Vorschau des Ergebnisses"
+
+# @ asg
+#: sources/facebook/template.php:67
+msgid ""
+"Only your own and public albums are visible. Please check your Facebook "
+"album's privacy settings if you don't see the album you need"
+msgstr ""
+"Es sind nur Ihre und Ihre öffentlichen Alben sichtbar. Bitte prüfen Sie Ihre "
+"Facebook Album Privatsphäre Einstellungen, sollten Sie das Album nicht "
+"sehen, welches Sie benötigen."
+
+# @ asg
+#: sources/facebook/template.php:71
+msgid "User's / page's photos"
+msgstr "Benutzers / Seiten Fotos"
+
+# @ asg
+#: sources/facebook/template.php:72
+msgid "Album"
+msgstr "Album"
+
+# @ asg
+#: sources/facebook/template.php:77
+msgid "Select album"
+msgstr "Wähle Album"
+
+# @ asg
+#: sources/facebook/template.php:79
+msgid "CURRENT ALBUM:"
+msgstr "AKTUELLES ALBUM:"
+
+# @ asg
+#: sources/facebook/template.php:90 sources/facebook/template.php:99
+#: sources/facebook/template.php:118 sources/facebook/template.php:128
+msgid "Category"
+msgstr "Kategorie"
+
+# @ asg
+#: sources/facebook/template.php:92 sources/facebook/template.php:101
+#: sources/facebook/template.php:120 sources/facebook/template.php:130
+msgid "Place"
+msgstr "Platz"
+
+# @ asg
+#: sources/facebook/template.php:93 sources/facebook/template.php:102
+#: sources/facebook/template.php:121 sources/facebook/template.php:131
+#: sources/flickr/template.php:65 sources/flickr/template.php:75
+#: sources/flickr/template.php:95 sources/flickr/template.php:106
+#: sources/posts/template.php:105 sources/posts/template.php:120
+#: sources/posts/template.php:145 sources/posts/template.php:160
+#: sources/rss/template.php:23 sources/rss/template.php:33
+#: sources/rss/template.php:53 sources/rss/template.php:64
+msgid "Tags"
+msgstr "Schlagwörter"
+
+# @ asg
+#: sources/facebook/template.php:108
+msgid "Link to facebook.com (same window)"
+msgstr "Link auf facebook.com (selbes Fenster)"
+
+# @ asg
+#: sources/facebook/template.php:109
+msgid "Link to facebook.com (new window)"
+msgstr "Link auf facebook.com (new window)"
+
+# @ asg
+#: sources/facebook/template.php:119 sources/facebook/template.php:129
+msgid "Image description"
+msgstr "Bildbeschreibung"
+
+# @ asg
+#: sources/flickr/editor.class.php:48
+msgid "User is OK"
+msgstr "Benutzer ist OK"
+
+# @ asg
+#: sources/flickr/source.class.php:7
+msgid "Flickr"
+msgstr "Flickr"
+
+# @ asg
+#: sources/flickr/template.php:4
+msgid "Log in to Flickr"
+msgstr "Einloggen in Flickr"
+
+# @ asg
+# @ default
+#: sources/flickr/template.php:8 sources/instagram/template.php:8
+msgid "Create an application"
+msgstr "Erstelle eine Applikation"
+
+# @ asg
+#: sources/flickr/template.php:42
+msgid "User's photostream"
+msgstr "Benutzers Fotostream"
+
+# @ asg
+#: sources/flickr/template.php:44
+msgid "Group's pool"
+msgstr "Gruppen Pool"
+
+# @ asg
+#: sources/flickr/template.php:45
+msgid "User's photoset"
+msgstr "Benutzers Fotoset"
+
+# @ asg
+#: sources/flickr/template.php:49
+msgid "Select group"
+msgstr "Wähle Gruppe"
+
+# @ asg
+#: sources/flickr/template.php:50
+msgid "Select photoset"
+msgstr "Wähle Fotoset"
+
+# @ asg
+#: sources/flickr/template.php:52
+msgid "CURRENT GALLERY:"
+msgstr "AKTUELLE GALERIE:"
+
+# @ asg
+#: sources/flickr/template.php:63 sources/flickr/template.php:73
+#: sources/flickr/template.php:93 sources/flickr/template.php:104
+#: sources/manual/image.php:29 sources/manual/image.php:70
+#: sources/posts/template.php:20 sources/posts/template.php:100
+#: sources/posts/template.php:115 sources/posts/template.php:140
+#: sources/posts/template.php:155 sources/rss/template.php:22
+#: sources/rss/template.php:32 sources/rss/template.php:52
+#: sources/rss/template.php:63
+msgid "Title"
+msgstr "Titel"
+
+# @ asg
+#: sources/flickr/template.php:66 sources/flickr/template.php:76
+#: sources/flickr/template.php:96 sources/flickr/template.php:107
+msgid "Owner"
+msgstr "Besitzer"
+
+# @ asg
+#: sources/flickr/template.php:83
+msgid "Link to flickr.com (same window)"
+msgstr "Link auf flickr.com (selbes Fenster)"
+
+# @ asg
+#: sources/flickr/template.php:84
+msgid "Link to flickr.com (new window)"
+msgstr "Link auf flickr.com (neus Fenster)"
+
+# @ asg
+#: sources/instagram/auth-failure.php:2
+msgid "Access denied by Instagram"
+msgstr "Zugriff von Instagram verweigert"
+
+# @ asg
+#: sources/instagram/auth-failure.php:4
+msgid ""
+"Most probably, you clicked \"Cancel\" button at Instagram authorization page."
+msgstr ""
+"Wahrscheinlich haben Sie den \"Cancel\" Button auf der Instagram "
+"Autorisierungsseite gedrückt."
+
+# @ asg
+#: sources/instagram/auth-failure.php:5
+msgid "Please close this tab and try to click \"Authorize\" button again."
+msgstr ""
+"Bitte schließen Sie diesen Tab und klicken Sie erneut auf den \"Authorize\" "
+"Button."
+
+# @ asg
+#: sources/instagram/auth-failure.php:9
+msgid "Error message was"
+msgstr "Fehlermeldung war"
+
+# @ asg
+#: sources/instagram/auth-success.php:3
+msgid "Instagram access granted"
+msgstr "Instagram Zugriff genehmigt"
+
+# @ asg
+#: sources/instagram/auth-success.php:4
+msgid "Please copy this access token to the gallery page:"
+msgstr "Bitte kopieren Sie diesen 'Access Token' auf Ihre Galerieseite:"
+
+# @ asg
+#: sources/instagram/editor.class.php:16 sources/instagram/editor.class.php:17
+msgid "Instagram Authorization"
+msgstr "Instagram Autorisierung"
+
+# @ asg
+#: sources/instagram/editor.class.php:43
+msgid "Data is available."
+msgstr "Daten sind verfügbar."
+
+# @ asg
+#: sources/instagram/editor.class.php:45
+msgid "No data available. Please check your authorization"
+msgstr "Keine Daten verfügbar. Bitte prüfen Sie Ihre Autorisierung"
+
+# @ default
+#: sources/instagram/template.php:4
+msgid "Log in to Instagram"
+msgstr "Einloggen in Instagram"
+
+# @ default
+#: sources/instagram/template.php:28
+msgid "Authorize"
+msgstr "Autorisieren"
+
+# @ asg
+#: sources/instagram/template.php:32
+msgid "Click \"Authorize\" to receive a new token"
+msgstr "Klicke \"Authorize\" um einen neuen Token zu erhalten"
+
+# @ default
+#: sources/instagram/template.php:35
+msgid "Check authorization"
+msgstr "Prüf eAutorisierung"
+
+# @ default
+#: sources/instagram/template.php:37
+msgid "Token check result is:"
+msgstr "Token Prüfergebnis ist:"
+
+# @ asg
+#: sources/instagram/template.php:38
+msgid "Unkkown"
+msgstr "Unbekannt"
+
+# @ asg
+#: sources/instagram/template.php:40
+msgid ""
+"Please note that this token will expire at some moment. A message will be "
+"sent to admin email once the token will expire."
+msgstr ""
+"Bitte beachten Sie, dass dieser Token irgendwann ablaufen wird. Eine "
+"Nachricht wird an den Admin gesendet, sobald dies geschehen wird."
+
+# @ default
+#: sources/instagram/template.php:45
+msgid "Check data availability"
+msgstr "Prüfe Datenverfügbarkeit"
+
+# @ asg
+#: sources/instagram/template.php:48
+msgid "SOURCE"
+msgstr "QUELLE"
+
+# @ asg
+#: sources/instagram/template.php:50
+msgid "User's images (enter your login to show your images)"
+msgstr "Benutzers Bilder (geben Sie Ihre Logindaten ein um diese Anzuzeigen)"
+
+# @ asg
+#: sources/instagram/template.php:51
+msgid "Users I follow"
+msgstr "Nutzer, denen ich folge"
+
+# @ asg
+#: sources/instagram/template.php:52
+msgid "Images I liked"
+msgstr "Bilder, die mir gefallen"
+
+# @ asg
+#: sources/instagram/template.php:53
+msgid "Hashtag"
+msgstr "Hashtag"
+
+# @ asg
+#: sources/instagram/template.php:56
+msgid "HASHTAG"
+msgstr "HASHTAG"
+
+# @ asg
+#: sources/instagram/template.php:58
+msgid "Please only enter one hashtag, multiple ones are not supported."
+msgstr "Bitte geben Sie nur ein Hastag ein, mehrere werden nicht unterstützt."
+
+# @ asg
+#: sources/instagram/template.php:61
+msgid "USER'S LOGIN"
+msgstr "BENUTZER LOGIN"
+
+# @ asg
+#: sources/instagram/template.php:68
+msgid "TITLE LINE 1"
+msgstr "Titel 1"
+
+# @ asg
+#: sources/instagram/template.php:70 sources/instagram/template.php:79
+#: sources/instagram/template.php:98 sources/instagram/template.php:107
+msgid "Instagram Login"
+msgstr "Instagram Login"
+
+# @ asg
+#: sources/instagram/template.php:71 sources/instagram/template.php:80
+#: sources/instagram/template.php:99 sources/instagram/template.php:108
+msgid "Instagram Full name"
+msgstr "Instagram voller Name"
+
+# @ asg
+#: sources/instagram/template.php:77
+msgid "TITLE LINE 2"
+msgstr "Titel 2"
+
+# @ asg
+#: sources/instagram/template.php:89
+msgid "Link to Instagram (same window)"
+msgstr "Link auf Instagram (selbes Fenster)"
+
+# @ asg
+#: sources/instagram/template.php:90
+msgid "Link to Instagram (new window)"
+msgstr "Link auf Instagram (neues Fenster)"
+
+# @ asg
+#: sources/manual/image.php:12
+msgid "Main image"
+msgstr "Hauptbild"
+
+# @ asg
+#: sources/manual/image.php:37
+msgid "Link URL"
+msgstr "Link URL"
+
+# @ asg
+#: sources/manual/image.php:41
+msgid "Tags (comma-separated)"
+msgstr "Schlagwörter (durch Komma getrennt)"
+
+# @ asg
+#: sources/manual/image.php:53
+msgid "Lightbox image (leave empty for video or google map)"
+msgstr "Lightbox Bild (lasse dies leer für Videos und Google Map)"
+
+# @ asg
+#: sources/manual/image.php:82
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# @ asg
+#: sources/manual/image.php:84 sources/posts/filter-custom-field.php:24
+#: sources/posts/filter-taxonomy.php:15
+msgid "Remove"
+msgstr "Entfernen"
+
+# @ asg
+#: sources/manual/template.php:5
+msgid "Link to URL (same window)"
+msgstr "Mit URL verlinken (selbes Fenster)"
+
+# @ asg
+#: sources/manual/template.php:6
+msgid "Link to URL (new window)"
+msgstr "Mit URL verlinken (neues Fenster)"
+
+# @ asg
+#: sources/manual/template.php:11
+msgid "Images"
+msgstr "Bilder"
+
+# @ asg
+#: sources/manual/template.php:12
+msgid "Add new image"
+msgstr "Neues Bild hinzufügen"
+
+# @ asg
+#: sources/nextgen/source.class.php:62
+msgid ""
+"NEXTGEN gallery is not installed. Please install and activate NEXTGEN "
+"gallery plugin."
+msgstr ""
+"NEXTGEN gallery ist nicht installiert. Bitte installieren und aktivieren Sie "
+"das NEXTGEN Gallery Plugin."
+
+# @ asg
+#: sources/nextgen/template.php:2
+#, php-format
+msgid ""
+"Please install and activate <a href=\"%s\">NEXTGEN gallery plugin</a> in "
+"order to enable this tab."
+msgstr ""
+"Bitte installiere und aktiviere <a href=\"%s\">NEXTGEN Gallery Plugin</a> um "
+"diesen Tab aktivieren zu können."
+
+# @ asg
+#: sources/nextgen/template.php:8
+msgid "GALLERY"
+msgstr "Galerie"
+
+# @ asg
+#: sources/nextgen/template.php:9
+msgid "Select gallery"
+msgstr "Wähle Galerie"
+
+# @ asg
+#: sources/nextgen/template.php:10
+msgid "Reset to none"
+msgstr "Zurücksetzen auf Keine"
+
+# @ asg
+#: sources/nextgen/template.php:11
+msgid "Selected"
+msgstr "Ausgewählt"
+
+# @ asg
+#: sources/nextgen/template.php:17
+msgid "ORDER BY"
+msgstr "SORTIEREN"
+
+# @ asg
+#: sources/nextgen/template.php:19
+msgid "Gallery order"
+msgstr "Galerie Reihenfolge"
+
+# @ asg
+#: sources/nextgen/template.php:20 sources/nextgen/template.php:45
+#: sources/nextgen/template.php:57 sources/nextgen/template.php:80
+#: sources/nextgen/template.php:93
+msgid "Filename"
+msgstr "Dateiname"
+
+# @ asg
+#: sources/nextgen/template.php:22
+msgid "Alt value"
+msgstr "Alternativer Wert"
+
+# @ asg
+#: sources/nextgen/template.php:23
+msgid "Random"
+msgstr "Zufall"
+
+# @ asg
+#: sources/nextgen/template.php:24 sources/nextgen/template.php:50
+#: sources/nextgen/template.php:62 sources/nextgen/template.php:85
+#: sources/nextgen/template.php:98 sources/posts/template.php:20
+#: sources/posts/template.php:104 sources/posts/template.php:119
+#: sources/posts/template.php:144 sources/posts/template.php:159
+msgid "Date"
+msgstr "Datum"
+
+# @ asg
+#: sources/nextgen/template.php:29
+msgid "ORDER"
+msgstr "Sortierung"
+
+# @ asg
+#: sources/nextgen/template.php:31
+msgid "ASC"
+msgstr "ASC"
+
+# @ asg
+#: sources/nextgen/template.php:32
+msgid "DESC"
+msgstr "DESC"
+
+# @ asg
+#: sources/nextgen/template.php:42 sources/posts/template.php:97
+msgid "CAPTION LINE 1"
+msgstr "Untertitel 1"
+
+# @ asg
+#: sources/nextgen/template.php:46 sources/nextgen/template.php:58
+#: sources/nextgen/template.php:81 sources/nextgen/template.php:94
+msgid "Alt text"
+msgstr "Alternativer Text"
+
+# @ asg
+#: sources/nextgen/template.php:47 sources/nextgen/template.php:59
+#: sources/nextgen/template.php:82 sources/nextgen/template.php:95
+msgid "Description text"
+msgstr "Beschreibungstext"
+
+# @ asg
+#: sources/nextgen/template.php:48 sources/nextgen/template.php:60
+#: sources/nextgen/template.php:83 sources/nextgen/template.php:96
+msgid "Description excerpt"
+msgstr "Beschreibungsauszug"
+
+# @ asg
+#: sources/nextgen/template.php:49 sources/nextgen/template.php:61
+#: sources/nextgen/template.php:84 sources/nextgen/template.php:97
+#: sources/posts/template.php:103 sources/posts/template.php:118
+#: sources/posts/template.php:143 sources/posts/template.php:158
+msgid "Date + time"
+msgstr "Datum + Zeit"
+
+# @ asg
+#: sources/nextgen/template.php:69 sources/posts/template.php:129
+#: sources/rss/template.php:40
+msgid "Link to image lightbox"
+msgstr "Link zur Bild lightbox"
+
+# @ asg
+#: sources/nextgen/template.php:70 sources/posts/template.php:130
+#: sources/rss/template.php:41
+msgid "Link to the original (same window)"
+msgstr "Link zum Original (selbes Fenster)"
+
+# @ asg
+#: sources/nextgen/template.php:71 sources/posts/template.php:131
+#: sources/rss/template.php:42
+msgid "Link to the original (new window)"
+msgstr "Link zum Original (neues Fenster)"
+
+# @ asg
+#: sources/posts/filter-custom-field.php:15
+msgid "value"
+msgstr "Wert"
+
+# @ asg
+#: sources/posts/filter-taxonomy.php:8
+msgid "comma-separated term slugs"
+msgstr "Komma-separierte Slugs"
+
+# @ default
+#: sources/posts/template.php:3
+msgid "Setup post type and filtering"
+msgstr "Richte Beitragstypen und die Filterung ein"
+
+# @ asg
+#: sources/posts/template.php:5
+msgid "Post filtering"
+msgstr "Beitragsfilterung"
+
+# @ default
+#: sources/posts/template.php:8
+msgid "Post type"
+msgstr "Beitragstyp"
+
+# @ asg
+#: sources/posts/template.php:18
+msgid "order by"
+msgstr "sortieren nach"
+
+# @ asg
+#: sources/posts/template.php:20 sources/rss/template.php:21
+#: sources/rss/template.php:31 sources/rss/template.php:51
+#: sources/rss/template.php:62
+msgid "Author"
+msgstr "Autor"
+
+# @ asg
+#: sources/posts/template.php:20
+msgid "Modification date"
+msgstr "Bearbeitungsdatum"
+
+# @ asg
+#: sources/posts/template.php:20
+msgid "Rand"
+msgstr "Rand"
+
+# @ asg
+#: sources/posts/template.php:20
+msgid "Comment count"
+msgstr "Kommentaranzahl"
+
+# @ default
+#: sources/posts/template.php:20
+msgid "Menu position"
+msgstr "Menuposition"
+
+# @ asg
+#: sources/posts/template.php:32
+msgid "Tagged with"
+msgstr "Verschlagwortet mit"
+
+# @ asg
+#: sources/posts/template.php:40 sources/posts/template.php:54
+msgid "Add filter"
+msgstr "Filter hinzufügen"
+
+# @ asg
+#: sources/posts/template.php:45
+msgid "Custom fields filters"
+msgstr "Benutzerdefinierte Felder Filter"
+
+# @ asg
+#: sources/posts/template.php:59
+msgid "Include / exclude individual posts"
+msgstr "Schließe individuelle Beiträge aus / ein"
+
+# @ asg
+#: sources/posts/template.php:62
+msgid "Include selected IDs"
+msgstr "Schließe gewählte ID's ein"
+
+# @ asg
+#: sources/posts/template.php:63
+msgid "Exclude selected IDs"
+msgstr "Schließe gewählte ID's aus"
+
+# @ asg
+#: sources/posts/template.php:66
+msgid "Comma-separated IDs hera"
+msgstr "Komma-separierte ID's"
+
+# @ asg
+#: sources/posts/template.php:73
+msgid "Take images from"
+msgstr "Nimm BIlder von"
+
+# @ asg
+#: sources/posts/template.php:75
+msgid "Image source"
+msgstr "Bildquelle"
+
+# @ asg
+#: sources/posts/template.php:77
+msgid "Post featured image"
+msgstr "Hervorgehobenes Beitragsbild"
+
+# @ asg
+#: sources/posts/template.php:78
+msgid "Attached images"
+msgstr "Angehängte Bilder"
+
+# @ asg
+#: sources/posts/template.php:82
+msgid "Fetch tags from taxonomy"
+msgstr "Hole Schlagwörter von Taxonomy"
+
+# @ asg
+#: sources/posts/template.php:101 sources/posts/template.php:116
+#: sources/posts/template.php:141 sources/posts/template.php:156
+msgid "Excerpt"
+msgstr "Auszug"
+
+# @ asg
+#: sources/posts/template.php:107 sources/posts/template.php:122
+#: sources/posts/template.php:147 sources/posts/template.php:162
+msgid "Custom field:"
+msgstr "Benutzerdefiniertes Feld:"
+
+# @ asg
+#: sources/rss/editor.class.php:20
+msgid "No RSS data found"
+msgstr "Keine RSS Daten gefunden"
+
+# @ asg
+#: sources/rss/editor.class.php:23
+msgid "RSS is OK"
+msgstr "RSS ist OK"
+
+# @ asg
+#: sources/rss/template.php:5
+msgid "Check feed availability"
+msgstr "Prüfe Feed Verfügbarkeit"
+
+# @ asg
+#: sources/rss/template.php:25 sources/rss/template.php:35
+#: sources/rss/template.php:55 sources/rss/template.php:66
+msgid "20-word excerpt"
+msgstr "20-Wörter Auszug"
+
+# @ default
+#: widgets.php:29
+msgid "Title:"
+msgstr "Titel:"
+
+# @ gallery
+#: widgets.php:32
+msgid "Gallery"
+msgstr "Galerie"
