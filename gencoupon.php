@@ -1,7 +1,28 @@
 <?php
 require_once("/wp-load.php");
-$coupon = generate_coupons15();
+require_once("/wp-config.php");
 require_once 'swift/lib/swift_required.php';
+global $wpdb;
+$oldEmail = $wpdb->get_row( "SELECT email FROM face_coupon_email WHERE coupon='c31ab58abc'");
+if (!is_null($oldEmail)) {
+	echo "fail";
+} else {
+$coupon = generate_coupons15();
+$wpdb->insert( 
+	'face_coupon_email', 
+	array( 
+		'email' => $_GET['email'], 
+		'coupon' => $coupon,
+		'type' => 'first10' 
+	), 
+	array( 
+		'%s', 
+		'%s',
+		'%s' 
+	) 
+);
+
+
 
 $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
   ->setUsername('lionboom113')
@@ -15,5 +36,7 @@ $message = Swift_Message::newInstance('Your coupon arrive!')
   ->setBody('Thanks for subcribe our website, your coupon is '.$coupon);
 
 $result = $mailer->send($message);
+}
+
 ?>
 
