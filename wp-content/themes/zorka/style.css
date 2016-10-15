@@ -13076,3 +13076,12 @@ nav {
 #lang_sel a {
   border: 1px solid #d1ebed !important;
 }
+#awesome-gallery-1863-1 {
+  margin: 8px 0 !important;
+}
+.footer_bottom_holder.col-4 {
+  display: none;
+}
+.single-product .woocommerce-tabs.wc-tabs-wrapper {
+  display: none;
+}
