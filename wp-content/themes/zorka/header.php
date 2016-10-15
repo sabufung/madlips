@@ -127,7 +127,7 @@ jQuery(element).removeClass("first");
 if ((index) % 3 === 0) { jQuery(element).addClass("first");}
 });
 var a = window.location.pathname;
-if (a.indexOf("product-category") !== -1){
+if (a.indexOf("shop") !== -1){
     jQuery(".category-filter").append(jQuery("#hmase61512").html());
 }
 jQuery(".control_option.grid_2").click(function(e){
