@@ -247,5 +247,27 @@ $page_title_background = isset($zorka_data['page-title-background']) ? $zorka_da
 	<?php get_template_part('templates/header/header','template' ); ?>
 
 	<div id="wrapper-content">
+<style>
+.product-single-short-description p:not(:first-child){
+display: none;
+}
+</style>
+<script>
+jQuery(document).ready(function(){
+if (jQuery("body").hasClass("single-product")){
+
+var a = jQuery(".product-single-short-description").clone();
+a.find("p").first().remove();
+jQuery(a.find("p")).each(function(index,element){
+	var btn = document.createElement("span");
+	jQuery(element).css("margin-bottom","0px");
+	jQuery(btn).append(jQuery(element));
+	jQuery(".product_meta").append(btn);
+})
 
 
+	
+}
+})
+
+</script>

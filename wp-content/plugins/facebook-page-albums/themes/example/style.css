@@ -1,0 +1,33 @@
+/*
+Theme Name: Example for "Facebook Page Albums" Plugin
+Theme URI: http://wordpress.org/plugins/facebook-page-albums/
+Author: Daiki Suganuma
+Author URI: http://se-suganuma.blogspot.com/
+Description: simple example how to show album list
+Version: 1.0
+*/
+
+.list,  {}
+.list li {
+    display: block;
+    clear: both;
+    margin-bottom: 16px;
+}
+.list li .thumb {
+    float: left;
+}
+.list li .info {
+    margin-left: 400px;
+}
+.list li .info:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+.page-control a, .page-control .current {
+    display: inline-block;
+    margin: 8px;
+}
+
